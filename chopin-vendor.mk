@@ -2176,6 +2176,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chopin/proprietary/vendor/etc/virtual-spn-conf-by-imsi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-imsi.xml \
     vendor/xiaomi/chopin/proprietary/vendor/etc/wfd_source_capability.csv:$(TARGET_COPY_OUT_VENDOR)/etc/wfd_source_capability.csv \
     vendor/xiaomi/chopin/proprietary/vendor/etc/xgf.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/xgf.cfg \
+    vendor/xiaomi/chopin/proprietary/vendor/data/model/scene_detection.dla:$(TARGET_COPY_OUT_VENDOR)/etc/data/model/scene_detection.dla \
+
+    
+    
+    
+    
+    
+    
     vendor/xiaomi/chopin/proprietary/vendor/etc/:$(TARGET_COPY_OUT_VENDOR)/etc/ \
 
 PRODUCT_PACKAGES += \
