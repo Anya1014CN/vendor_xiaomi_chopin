@@ -1447,9 +1447,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/8:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/8 \
     vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/9:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/9 \
     vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/b:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/b \
-
     vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/keyphrase.xml:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/keyphrase.xml \
-
     vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/antiCmds/p2/antiCmds/c_e_dic.bin.f:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/antiCmds/p2/antiCmds/c_e_dic.bin.f \
     vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/antiCmds/p2/antiCmds/c_e_dic.bin.gen:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/antiCmds/p2/antiCmds/c_e_dic.bin.gen \
     vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/antiCmds/p2/antiCmds/c_e_dic.bin.l:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/antiCmds/p2/antiCmds/c_e_dic.bin.l \
