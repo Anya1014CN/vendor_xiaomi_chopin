@@ -427,8 +427,19 @@ PRODUCT_PACKAGES += \
     EngineerMode \
     ImsService \
     LPPeService \
-    MiuiCamera \
     DuraSpeed \
+    com.xiaomi.ugd \
+    EidService \
+    GFTest \
+    GoogleNetworkStackResOverlay \
+    GoogleTetheringResOverlay \
+    IFAAService \
+    InProcessTetheringResOverlay \
+    NetworkStackInProcessResOverlay \
+    NetworkStackResOverlay \
+    SensorTestTool \
+    SoterService \
+    TetheringResOverlay \
     duraspeed \
     mediatek-common \
     mediatek-framework \
