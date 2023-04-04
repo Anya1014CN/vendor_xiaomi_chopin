@@ -1,0 +1,4 @@
+service vendor.mitee.secureelement-hal_1_2 /vendor/bin/hw/vendor.xiaomi.hardware.secure_element@1.2-service
+    class hal
+    user system
+    group system secure_element
