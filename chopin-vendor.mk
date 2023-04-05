@@ -96,7 +96,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chopin/proprietary/vendor/bin/setup_rcv2backmic.sh:$(TARGET_COPY_OUT_VENDOR)/bin/setup_rcv2backmic.sh \
     vendor/xiaomi/chopin/proprietary/vendor/bin/setup_rcv2mainmic.sh:$(TARGET_COPY_OUT_VENDOR)/bin/setup_rcv2mainmic.sh \
     vendor/xiaomi/chopin/proprietary/vendor/bin/setup_rcv2topmic.sh:$(TARGET_COPY_OUT_VENDOR)/bin/setup_rcv2topmic.sh \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/setup_topmic2headphone.sh:$(TARGET_COPY_OUT_VENDOR)/bin/setup_topmic2headphone.sh 
+    vendor/xiaomi/chopin/proprietary/vendor/bin/setup_topmic2headphone.sh:$(TARGET_COPY_OUT_VENDOR)/bin/setup_topmic2headphone.sh \
     vendor/xiaomi/chopin/proprietary/vendor/bin/slad:$(TARGET_COPY_OUT_VENDOR)/bin/slad \
     vendor/xiaomi/chopin/proprietary/vendor/bin/soterd:$(TARGET_COPY_OUT_VENDOR)/bin/soterd \
     vendor/xiaomi/chopin/proprietary/vendor/bin/SoterProvisioningTool_isee:$(TARGET_COPY_OUT_VENDOR)/bin/SoterProvisioningTool_isee \
@@ -199,8 +199,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chopin/proprietary/vendor/etc/128_Sepia.png:$(TARGET_COPY_OUT_VENDOR)/etc/128_Sepia.png \
     vendor/xiaomi/chopin/proprietary/vendor/etc/FV-SAM-MTK2.dat:$(TARGET_COPY_OUT_VENDOR)/etc/FV-SAM-MTK2.dat \
     vendor/xiaomi/chopin/proprietary/vendor/etc/MNL_Config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/MNL_Config.xml \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/NOTICE.xml.gz:$(TARGET_COPY_OUT_VENDOR)/etc/NOTICE.xml.gz \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/NOTICE_GPL.html.gz:$(TARGET_COPY_OUT_VENDOR)/etc/NOTICE_GPL.html.gz \
     vendor/xiaomi/chopin/proprietary/vendor/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml \
     vendor/xiaomi/chopin/proprietary/vendor/etc/a2dp_in_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_in_audio_policy_configuration.xml \
     vendor/xiaomi/chopin/proprietary/vendor/etc/aee-config:$(TARGET_COPY_OUT_VENDOR)/etc/aee-config \
