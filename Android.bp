@@ -335,6 +335,42 @@ dex_import {
 }
 
 prebuilt_etc_xml {
+	name: "manifest_dsds",
+	owner: "xiaomi",
+	src: "proprietary/odm/etc/vintf/manifest_dsds.xml",
+	filename_from_src: true,
+	sub_dir: "vintf",
+	device_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "manifest_qsqs",
+	owner: "xiaomi",
+	src: "proprietary/odm/etc/vintf/manifest_qsqs.xml",
+	filename_from_src: true,
+	sub_dir: "vintf",
+	device_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "manifest_ss",
+	owner: "xiaomi",
+	src: "proprietary/odm/etc/vintf/manifest_ss.xml",
+	filename_from_src: true,
+	sub_dir: "vintf",
+	device_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "manifest_tsts",
+	owner: "xiaomi",
+	src: "proprietary/odm/etc/vintf/manifest_tsts.xml",
+	filename_from_src: true,
+	sub_dir: "vintf",
+	device_specific: true,
+}
+
+prebuilt_etc_xml {
 	name: "android.hardware.dumpstate@1.1-service.xiaomi",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.dumpstate@1.1-service.xiaomi.xml",
