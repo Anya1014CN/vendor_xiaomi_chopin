@@ -8,6 +8,17 @@ soong_namespace {
 }
 
 android_app_import {
+	name: "ImsService",
+	owner: "xiaomi",
+	apk: "proprietary/priv-app/ImsService/ImsService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
 	name: "EidService",
 	owner: "xiaomi",
 	apk: "proprietary/vendor/app/EidService/EidService.apk",
