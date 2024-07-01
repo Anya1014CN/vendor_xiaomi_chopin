@@ -3670,6 +3670,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chopin/proprietary/vendor/thh/ta/isee_model.json:$(TARGET_COPY_OUT_VENDOR)/thh/ta/isee_model.json \
     vendor/xiaomi/chopin/proprietary/vendor/vendor_dlkm/etc/NOTICE.xml.gz:$(TARGET_COPY_OUT_VENDOR)/vendor_dlkm/etc/NOTICE.xml.gz \
     vendor/xiaomi/chopin/proprietary/vendor/vendor_dlkm/etc/build.prop:$(TARGET_COPY_OUT_VENDOR)/vendor_dlkm/etc/build.prop
+    vendor/xiaomi/chopin/proprietary/vendor/vendor_dlkm/etc/build.prop:$(TARGET_COPY_OUT_VENDOR)/vendor_dlkm/etc/build.prop
+    vendor/xiaomi/chopin/proprietary/product/device_features/chopin.xml:$(TARGET_COPY_OUT_PRODUCT)/device_features/chopin.xml
 
 PRODUCT_PACKAGES += \
     com.android.vndk.v30 \
