@@ -19,149 +19,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "EidService",
-	owner: "xiaomi",
-	apk: "proprietary/vendor/app/EidService/EidService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
-	name: "GFTest",
-	owner: "xiaomi",
-	apk: "proprietary/vendor/app/GFTest/GFTest.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
-	name: "GoogleNetworkStackResOverlay",
-	owner: "xiaomi",
-	apk: "proprietary/vendor/app/GoogleNetworkStackResOverlay/GoogleNetworkStackResOverlay.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
-	name: "GoogleTetheringResOverlay",
-	owner: "xiaomi",
-	apk: "proprietary/vendor/app/GoogleTetheringResOverlay/GoogleTetheringResOverlay.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
-	name: "IFAAService",
-	owner: "xiaomi",
-	apk: "proprietary/vendor/app/IFAAService/IFAAService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
-	name: "InProcessTetheringResOverlay",
-	owner: "xiaomi",
-	apk: "proprietary/vendor/app/InProcessTetheringResOverlay/InProcessTetheringResOverlay.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
-	name: "MipayService",
-	owner: "xiaomi",
-	apk: "proprietary/vendor/app/MipayService/MipayService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
-	name: "NetworkStackInProcessResOverlay",
-	owner: "xiaomi",
-	apk: "proprietary/vendor/app/NetworkStackInProcessResOverlay/NetworkStackInProcessResOverlay.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
-	name: "NetworkStackResOverlay",
-	owner: "xiaomi",
-	apk: "proprietary/vendor/app/NetworkStackResOverlay/NetworkStackResOverlay.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
-	name: "SensorTestTool",
-	owner: "xiaomi",
-	apk: "proprietary/vendor/app/SensorTestTool/SensorTestTool.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
-	name: "SoterService",
-	owner: "xiaomi",
-	apk: "proprietary/vendor/app/SoterService/SoterService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
-	name: "TetheringResOverlay",
-	owner: "xiaomi",
-	apk: "proprietary/vendor/app/TetheringResOverlay/TetheringResOverlay.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
-	name: "com.xiaomi.ugd",
-	owner: "xiaomi",
-	apk: "proprietary/vendor/app/com.xiaomi.ugd/com.xiaomi.ugd.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
 	name: "MtkCalendar",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/MtkCalendar/MtkCalendar.apk",
@@ -218,42 +75,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "EmergencyInfo",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/priv-app/EmergencyInfo/EmergencyInfo.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "GoogleServicesFramework",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "MiuiSystemUI",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/priv-app/MiuiSystemUI/MiuiSystemUI.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
 	name: "MtkCarrierConfig",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/priv-app/MtkCarrierConfig/MtkCarrierConfig.apk",
@@ -266,45 +87,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "MtkWallpaperPicker",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/priv-app/MtkWallpaperPicker/MtkWallpaperPicker.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
 	name: "Omacp",
 	owner: "xiaomi",
 	apk: "proprietary/system_ext/priv-app/Omacp/Omacp.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "StorageManager",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/priv-app/StorageManager/StorageManager.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "WallpaperCropper",
-	owner: "xiaomi",
-	apk: "proprietary/system_ext/priv-app/WallpaperCropper/WallpaperCropper.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -380,24 +165,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.boot@1.1",
-	owner: "xiaomi",
-	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.boot@1.1.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "android.hardware.cas@1.2-service",
-	owner: "xiaomi",
-	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.cas@1.2-service.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
 	name: "fod",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/fod.xml",
@@ -410,15 +177,6 @@ prebuilt_etc_xml {
 	name: "android.hardware.dumpstate@1.1-service.xiaomi",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.dumpstate@1.1-service.xiaomi.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "android.hardware.health@2.1",
-	owner: "xiaomi",
-	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.health@2.1.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
@@ -455,24 +213,6 @@ prebuilt_etc_xml {
 	name: "android.hardware.wifi.supplicant",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "android.hardware.wifi@1.0-service",
-	owner: "xiaomi",
-	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "lights-mtk-default",
-	owner: "xiaomi",
-	src: "proprietary/vendor/etc/vintf/manifest/lights-mtk-default.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,

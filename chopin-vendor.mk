@@ -8,7 +8,6 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/chopin/proprietary/bin/AudioSetParam:$(TARGET_COPY_OUT_SYSTEM)/bin/AudioSetParam \
     vendor/xiaomi/chopin/proprietary/bin/audio_set_params:$(TARGET_COPY_OUT_SYSTEM)/bin/audio_set_params \
-    vendor/xiaomi/chopin/proprietary/bin/badblocks:$(TARGET_COPY_OUT_SYSTEM)/bin/badblocks \
     vendor/xiaomi/chopin/proprietary/bin/batterywarning:$(TARGET_COPY_OUT_SYSTEM)/bin/batterywarning \
     vendor/xiaomi/chopin/proprietary/bin/boot_logo_updater:$(TARGET_COPY_OUT_SYSTEM)/bin/boot_logo_updater \
     vendor/xiaomi/chopin/proprietary/bin/connsyslogger:$(TARGET_COPY_OUT_SYSTEM)/bin/connsyslogger \
@@ -30,10 +29,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chopin/proprietary/bin/mtk_plpath_utils:$(TARGET_COPY_OUT_SYSTEM)/bin/mtk_plpath_utils \
     vendor/xiaomi/chopin/proprietary/bin/netdiag:$(TARGET_COPY_OUT_SYSTEM)/bin/netdiag \
     vendor/xiaomi/chopin/proprietary/bin/oem-iptables-init.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/oem-iptables-init.sh \
-    vendor/xiaomi/chopin/proprietary/bin/recovery-persist:$(TARGET_COPY_OUT_SYSTEM)/bin/recovery-persist \
     vendor/xiaomi/chopin/proprietary/bin/spkcal:$(TARGET_COPY_OUT_SYSTEM)/bin/spkcal \
     vendor/xiaomi/chopin/proprietary/bin/terservice:$(TARGET_COPY_OUT_SYSTEM)/bin/terservice \
-    vendor/xiaomi/chopin/proprietary/bin/test-nusensors:$(TARGET_COPY_OUT_SYSTEM)/bin/test-nusensors \
     vendor/xiaomi/chopin/proprietary/bin/thermald:$(TARGET_COPY_OUT_SYSTEM)/bin/thermald \
     vendor/xiaomi/chopin/proprietary/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM)/bin/vtservice \
     vendor/xiaomi/chopin/proprietary/bin/wbridge:$(TARGET_COPY_OUT_SYSTEM)/bin/wbridge \
@@ -41,9 +38,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chopin/proprietary/bin/recovery-persist:$(TARGET_COPY_OUT_SYSTEM)/bin/recovery-persist \
     vendor/xiaomi/chopin/proprietary/etc/nfcee_access.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/nfcee_access.xml \
     vendor/xiaomi/chopin/proprietary/etc/ams_aal_config.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/ams_aal_config.xml \
-    vendor/xiaomi/chopin/proprietary/etc/cn_chinamobile.prop:$(TARGET_COPY_OUT_SYSTEM)/etc/cn_chinamobile.prop \
-    vendor/xiaomi/chopin/proprietary/etc/cn_chinatelecom.prop:$(TARGET_COPY_OUT_SYSTEM)/etc/cn_chinatelecom.prop \
-    vendor/xiaomi/chopin/proprietary/etc/cn.prop:$(TARGET_COPY_OUT_SYSTEM)/etc/cn.prop \
     vendor/xiaomi/chopin/proprietary/etc/excluded-input-devices.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/excluded-input-devices.xml \
     vendor/xiaomi/chopin/proprietary/etc/fiveG-apns-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/fiveG-apns-conf.xml \
     vendor/xiaomi/chopin/proprietary/etc/init.secureboot.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init.secureboot.rc \
@@ -78,34 +72,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chopin/proprietary/etc/init/recovery-persist.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/recovery-persist.rc \
     vendor/xiaomi/chopin/proprietary/etc/init/terserver.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/terserver.rc \
     vendor/xiaomi/chopin/proprietary/etc/init/hw/init.stnfc.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/hw/init.stnfc.rc \
-    vendor/xiaomi/chopin/proprietary/lib/android.hardware.audio@4.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.audio@4.0.so \
-    vendor/xiaomi/chopin/proprietary/lib/android.hardware.audio@5.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.audio@5.0.so \
-    vendor/xiaomi/chopin/proprietary/lib/android.hardware.audio@6.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.audio@6.0.so \
-    vendor/xiaomi/chopin/proprietary/lib/android.hardware.audio@7.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.audio@7.0.so \
-    vendor/xiaomi/chopin/proprietary/lib/android.hardware.audio.common@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.audio.common@2.0.so \
-    vendor/xiaomi/chopin/proprietary/lib/android.hardware.audio.common@4.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.audio.common@4.0.so \
-    vendor/xiaomi/chopin/proprietary/lib/android.hardware.audio.common@4.0-util.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.audio.common@4.0-util.so \
-    vendor/xiaomi/chopin/proprietary/lib/android.hardware.audio.common@5.0-util.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.audio.common@5.0-util.so \
-    vendor/xiaomi/chopin/proprietary/lib/android.hardware.audio.common@6.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.audio.common@6.0.so \
-    vendor/xiaomi/chopin/proprietary/lib/android.hardware.audio.common@6.0-util.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.audio.common@6.0-util.so \
-    vendor/xiaomi/chopin/proprietary/lib/android.hardware.audio.common-util.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.audio.common-util.so \
-    vendor/xiaomi/chopin/proprietary/lib/android.hardware.audio.effect@4.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.audio.effect@4.0.so \
-    vendor/xiaomi/chopin/proprietary/lib/android.hardware.audio.effect@5.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.audio.effect@5.0.so \
-    vendor/xiaomi/chopin/proprietary/lib/android.hardware.audio.effect@6.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.audio.effect@6.0.so \
-    vendor/xiaomi/chopin/proprietary/lib/android.hardware.nfc@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.nfc@1.0.so \
-    vendor/xiaomi/chopin/proprietary/lib/android.hardware.nfc@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.nfc@1.1.so \
-    vendor/xiaomi/chopin/proprietary/lib/android.hardware.nfc@1.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.nfc@1.2.so \
-    vendor/xiaomi/chopin/proprietary/lib/android.hardware.radio@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.radio@1.0.so \
-    vendor/xiaomi/chopin/proprietary/lib/android.hardware.radio@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.radio@1.1.so \
-    vendor/xiaomi/chopin/proprietary/lib/android.hardware.radio@1.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.radio@1.2.so \
-    vendor/xiaomi/chopin/proprietary/lib/android.hardware.radio@1.3.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.radio@1.3.so \
-    vendor/xiaomi/chopin/proprietary/lib/android.hardware.radio@1.4.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.radio@1.4.so \
-    vendor/xiaomi/chopin/proprietary/lib/android.hardware.radio@1.6.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.radio@1.6.so \
-    vendor/xiaomi/chopin/proprietary/lib/android.hardware.radio.config@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.radio.config@1.0.so \
-    vendor/xiaomi/chopin/proprietary/lib/android.hardware.soundtrigger@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.soundtrigger@2.0.so \
-    vendor/xiaomi/chopin/proprietary/lib/android.hardware.soundtrigger@2.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.soundtrigger@2.1.so \
-    vendor/xiaomi/chopin/proprietary/lib/android.hardware.soundtrigger@2.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.soundtrigger@2.2.so \
-    vendor/xiaomi/chopin/proprietary/lib/android.hidl.memory.block@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hidl.memory.block@1.0.so \
     vendor/xiaomi/chopin/proprietary/lib/libadvanced_crypto_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libadvanced_crypto_jni.so \
     vendor/xiaomi/chopin/proprietary/lib/libadvanced_crypto.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libadvanced_crypto.so \
     vendor/xiaomi/chopin/proprietary/lib/libarcsoft_single_chart_calibration.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libarcsoft_single_chart_calibration.so \
@@ -121,17 +87,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chopin/proprietary/lib/libcustom_prop.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcustom_prop.so \
     vendor/xiaomi/chopin/proprietary/lib/libdcfdecoderjni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdcfdecoderjni.so \
     vendor/xiaomi/chopin/proprietary/lib/libdisp_dejitter.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdisp_dejitter.so \
-    vendor/xiaomi/chopin/proprietary/lib/libdrm.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdrm.so \
     vendor/xiaomi/chopin/proprietary/lib/libEllipticDebug.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libEllipticDebug.so \
     vendor/xiaomi/chopin/proprietary/lib/libem_audio_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libem_audio_jni.so \
     vendor/xiaomi/chopin/proprietary/lib/libem_support_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libem_support_jni.so \
     vendor/xiaomi/chopin/proprietary/lib/libem_usb_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libem_usb_jni.so \
     vendor/xiaomi/chopin/proprietary/lib/libem_wifi_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libem_wifi_jni.so \
-    vendor/xiaomi/chopin/proprietary/lib/libext2_blkid.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libext2_blkid.so \
-    vendor/xiaomi/chopin/proprietary/lib/libext2_com_err.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libext2_com_err.so \
-    vendor/xiaomi/chopin/proprietary/lib/libext2_e2p.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libext2_e2p.so \
-    vendor/xiaomi/chopin/proprietary/lib/libext2fs.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libext2fs.so \
-    vendor/xiaomi/chopin/proprietary/lib/libext2_uuid.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libext2_uuid.so \
     vendor/xiaomi/chopin/proprietary/lib/libfdpp_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfdpp_jni.so \
     vendor/xiaomi/chopin/proprietary/lib/libfdpp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfdpp.so \
     vendor/xiaomi/chopin/proprietary/lib/libged_kpi.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libged_kpi.so \
@@ -139,15 +99,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chopin/proprietary/lib/libgpud_sys.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libgpud_sys.so \
     vendor/xiaomi/chopin/proprietary/lib/libgralloc_extra_sys.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libgralloc_extra_sys.so \
     vendor/xiaomi/chopin/proprietary/lib/libgui_debug.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libgui_debug.so \
-    vendor/xiaomi/chopin/proprietary/lib/libhwbinder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhwbinder.so \
     vendor/xiaomi/chopin/proprietary/lib/libjni_pq.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libjni_pq.so \
     vendor/xiaomi/chopin/proprietary/lib/libjpeg-alpha-oal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libjpeg-alpha-oal.so \
     vendor/xiaomi/chopin/proprietary/lib/libjpeg-alpha.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libjpeg-alpha.so \
     vendor/xiaomi/chopin/proprietary/lib/libJpegOal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libJpegOal.so \
     vendor/xiaomi/chopin/proprietary/lib/liblhdcBT_enc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/liblhdcBT_enc.so \
     vendor/xiaomi/chopin/proprietary/lib/liblhdc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/liblhdc.so \
-    vendor/xiaomi/chopin/proprietary/lib/liblogwrap.so:$(TARGET_COPY_OUT_SYSTEM)/lib/liblogwrap.so \
-    vendor/xiaomi/chopin/proprietary/lib/libmedialogservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmedialogservice.so \
     vendor/xiaomi/chopin/proprietary/lib/libmediatek_exceptionlog.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmediatek_exceptionlog.so \
     vendor/xiaomi/chopin/proprietary/lib/libmemoryDumpEncoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmemoryDumpEncoder.so \
     vendor/xiaomi/chopin/proprietary/lib/libmisys_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmisys_jni.so \
@@ -164,14 +121,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chopin/proprietary/lib/libmtkperf_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtkperf_client.so \
     vendor/xiaomi/chopin/proprietary/lib/libmtk_vt_wrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtk_vt_wrapper.so \
     vendor/xiaomi/chopin/proprietary/lib/libnativecheck-jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libnativecheck-jni.so \
-    vendor/xiaomi/chopin/proprietary/lib/libnbaio.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libnbaio.so \
     vendor/xiaomi/chopin/proprietary/lib/libneuropilot_hal_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libneuropilot_hal_utils.so \
     vendor/xiaomi/chopin/proprietary/lib/libnwk_opt_halwrap.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libnwk_opt_halwrap.so \
     vendor/xiaomi/chopin/proprietary/lib/liboctvm_drv.so:$(TARGET_COPY_OUT_SYSTEM)/lib/liboctvm_drv.so \
     vendor/xiaomi/chopin/proprietary/lib/liboctvm_runtime.so:$(TARGET_COPY_OUT_SYSTEM)/lib/liboctvm_runtime.so \
     vendor/xiaomi/chopin/proprietary/lib/liboctvm.so:$(TARGET_COPY_OUT_SYSTEM)/lib/liboctvm.so \
     vendor/xiaomi/chopin/proprietary/lib/liboctvm_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/liboctvm_utils.so \
-    vendor/xiaomi/chopin/proprietary/lib/libpcap.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libpcap.so \
     vendor/xiaomi/chopin/proprietary/lib/libperfctl.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libperfctl.so \
     vendor/xiaomi/chopin/proprietary/lib/libpowerhalwrap_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libpowerhalwrap_jni.so \
     vendor/xiaomi/chopin/proprietary/lib/libpowerhalwrap.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libpowerhalwrap.so \
@@ -187,10 +142,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chopin/proprietary/lib/libsf_debug.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsf_debug.so \
     vendor/xiaomi/chopin/proprietary/lib/libshell_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libshell_jni.so \
     vendor/xiaomi/chopin/proprietary/lib/libshell.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libshell.so \
-    vendor/xiaomi/chopin/proprietary/lib/libsparse.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsparse.so \
     vendor/xiaomi/chopin/proprietary/lib/libstagefright_wfd_mtk.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_wfd_mtk.so \
     vendor/xiaomi/chopin/proprietary/lib/libsysenv_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsysenv_system.so \
-    vendor/xiaomi/chopin/proprietary/lib/libtextclassifier_hash.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtextclassifier_hash.so \
     vendor/xiaomi/chopin/proprietary/lib/libtflite_mtk.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtflite_mtk.so \
     vendor/xiaomi/chopin/proprietary/lib/libthemeutils_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libthemeutils_jni.so \
     vendor/xiaomi/chopin/proprietary/lib/libtouch_ll.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtouch_ll.so \
@@ -227,20 +180,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chopin/proprietary/lib/vendor.xiaomi.hardware.misys@3.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.xiaomi.hardware.misys@3.0.so \
     vendor/xiaomi/chopin/proprietary/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so \
     vendor/xiaomi/chopin/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
-    vendor/xiaomi/chopin/proprietary/lib64/android.hardware.nfc@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.nfc@1.0.so \
-    vendor/xiaomi/chopin/proprietary/lib64/android.hardware.nfc@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.nfc@1.1.so \
-    vendor/xiaomi/chopin/proprietary/lib64/android.hardware.nfc@1.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.nfc@1.2.so \
-    vendor/xiaomi/chopin/proprietary/lib64/android.hardware.radio@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.radio@1.0.so \
-    vendor/xiaomi/chopin/proprietary/lib64/android.hardware.radio@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.radio@1.1.so \
-    vendor/xiaomi/chopin/proprietary/lib64/android.hardware.radio@1.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.radio@1.2.so \
-    vendor/xiaomi/chopin/proprietary/lib64/android.hardware.radio@1.3.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.radio@1.3.so \
-    vendor/xiaomi/chopin/proprietary/lib64/android.hardware.radio@1.4.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.radio@1.4.so \
-    vendor/xiaomi/chopin/proprietary/lib64/android.hardware.radio@1.6.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.radio@1.6.so \
-    vendor/xiaomi/chopin/proprietary/lib64/android.hardware.radio.config@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.radio.config@1.0.so \
-    vendor/xiaomi/chopin/proprietary/lib64/android.hardware.soundtrigger@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.soundtrigger@2.0.so \
-    vendor/xiaomi/chopin/proprietary/lib64/android.hardware.soundtrigger@2.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.soundtrigger@2.1.so \
-    vendor/xiaomi/chopin/proprietary/lib64/android.hardware.soundtrigger@2.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.soundtrigger@2.2.so \
-    vendor/xiaomi/chopin/proprietary/lib64/android.hidl.memory.block@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hidl.memory.block@1.0.so \
     vendor/xiaomi/chopin/proprietary/lib64/bleaudio.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/bleaudio.so \
     vendor/xiaomi/chopin/proprietary/lib64/libadvanced_crypto_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libadvanced_crypto_jni.so \
     vendor/xiaomi/chopin/proprietary/lib64/libadvanced_crypto.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libadvanced_crypto.so \
@@ -270,7 +209,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chopin/proprietary/lib64/libdisp_dejitter.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdisp_dejitter.so \
     vendor/xiaomi/chopin/proprietary/lib64/libdoc_photo_c++_shared.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdoc_photo_c++_shared.so \
     vendor/xiaomi/chopin/proprietary/lib64/libdoc_photo.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdoc_photo.so \
-    vendor/xiaomi/chopin/proprietary/lib64/libdrm.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdrm.so \
     vendor/xiaomi/chopin/proprietary/lib64/libem_audio_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libem_audio_jni.so \
     vendor/xiaomi/chopin/proprietary/lib64/libem_support_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libem_support_jni.so \
     vendor/xiaomi/chopin/proprietary/lib64/libem_usb_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libem_usb_jni.so \
@@ -287,7 +225,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chopin/proprietary/lib64/libgpud_sys.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libgpud_sys.so \
     vendor/xiaomi/chopin/proprietary/lib64/libgralloc_extra_sys.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libgralloc_extra_sys.so \
     vendor/xiaomi/chopin/proprietary/lib64/libgui_debug.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libgui_debug.so \
-    vendor/xiaomi/chopin/proprietary/lib64/libhwbinder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhwbinder.so \
     vendor/xiaomi/chopin/proprietary/lib64/libinpaint_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libinpaint_jni.so \
     vendor/xiaomi/chopin/proprietary/lib64/libinpaint.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libinpaint.so \
     vendor/xiaomi/chopin/proprietary/lib64/libjlspeex.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjlspeex.so \
@@ -331,7 +268,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chopin/proprietary/lib64/liboctvm_runtime.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/liboctvm_runtime.so \
     vendor/xiaomi/chopin/proprietary/lib64/liboctvm.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/liboctvm.so \
     vendor/xiaomi/chopin/proprietary/lib64/liboctvm_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/liboctvm_utils.so \
-    vendor/xiaomi/chopin/proprietary/lib64/libparameter.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libparameter.so \
     vendor/xiaomi/chopin/proprietary/lib64/libperfctl.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libperfctl.so \
     vendor/xiaomi/chopin/proprietary/lib64/libpowerhalwrap_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libpowerhalwrap_jni.so \
     vendor/xiaomi/chopin/proprietary/lib64/libpowerhalwrap.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libpowerhalwrap.so \
@@ -341,7 +277,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chopin/proprietary/lib64/librefocus_mibokeh.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/librefocus_mibokeh.so \
     vendor/xiaomi/chopin/proprietary/lib64/librefocus.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/librefocus.so \
     vendor/xiaomi/chopin/proprietary/lib64/librelight_only_extraphoto.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/librelight_only_extraphoto.so \
-    vendor/xiaomi/chopin/proprietary/lib64/libremote-processor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libremote-processor.so \
     vendor/xiaomi/chopin/proprietary/lib64/lib_remote_simlock.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib_remote_simlock.so \
     vendor/xiaomi/chopin/proprietary/lib64/libroam2free_softsim.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libroam2free_softsim.so \
     vendor/xiaomi/chopin/proprietary/lib64/libsechook.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsechook.so \
@@ -358,7 +293,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chopin/proprietary/lib64/libstfaceunlockocl.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstfaceunlockocl.so \
     vendor/xiaomi/chopin/proprietary/lib64/libsysenv_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsysenv_system.so \
     vendor/xiaomi/chopin/proprietary/lib64/libterservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libterservice.so \
-    vendor/xiaomi/chopin/proprietary/lib64/libtextclassifier_hash.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libtextclassifier_hash.so \
     vendor/xiaomi/chopin/proprietary/lib64/libtflite_mtk.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libtflite_mtk.so \
     vendor/xiaomi/chopin/proprietary/lib64/libthemeutils_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libthemeutils_jni.so \
     vendor/xiaomi/chopin/proprietary/lib64/libtouch_ll.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libtouch_ll.so \
@@ -630,218 +564,74 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chopin/proprietary/vendor/chopin.build.prop:$(TARGET_COPY_OUT_VENDOR)/chopin.build.prop \
     vendor/xiaomi/chopin/proprietary/vendor/choping.build.prop:$(TARGET_COPY_OUT_VENDOR)/choping.build.prop \
     vendor/xiaomi/chopin/proprietary/vendor/chopinin.build.prop:$(TARGET_COPY_OUT_VENDOR)/chopinin.build.prop \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/[:$(TARGET_COPY_OUT_VENDOR)/bin/[ \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/acpi:$(TARGET_COPY_OUT_VENDOR)/bin/acpi \
     vendor/xiaomi/chopin/proprietary/vendor/bin/aee_aedv:$(TARGET_COPY_OUT_VENDOR)/bin/aee_aedv \
     vendor/xiaomi/chopin/proprietary/vendor/bin/aee_aedv64:$(TARGET_COPY_OUT_VENDOR)/bin/aee_aedv64 \
     vendor/xiaomi/chopin/proprietary/vendor/bin/aee_dumpstatev:$(TARGET_COPY_OUT_VENDOR)/bin/aee_dumpstatev \
     vendor/xiaomi/chopin/proprietary/vendor/bin/aeev:$(TARGET_COPY_OUT_VENDOR)/bin/aeev \
     vendor/xiaomi/chopin/proprietary/vendor/bin/AgentTest:$(TARGET_COPY_OUT_VENDOR)/bin/AgentTest \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/applypatch:$(TARGET_COPY_OUT_VENDOR)/bin/applypatch \
     vendor/xiaomi/chopin/proprietary/vendor/bin/atcid:$(TARGET_COPY_OUT_VENDOR)/bin/atcid \
     vendor/xiaomi/chopin/proprietary/vendor/bin/audiocmdservice_atci:$(TARGET_COPY_OUT_VENDOR)/bin/audiocmdservice_atci \
     vendor/xiaomi/chopin/proprietary/vendor/bin/autobt:$(TARGET_COPY_OUT_VENDOR)/bin/autobt \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/awk:$(TARGET_COPY_OUT_VENDOR)/bin/awk \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/base64:$(TARGET_COPY_OUT_VENDOR)/bin/base64 \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/basename:$(TARGET_COPY_OUT_VENDOR)/bin/basename \
     vendor/xiaomi/chopin/proprietary/vendor/bin/batterysecret:$(TARGET_COPY_OUT_VENDOR)/bin/batterysecret \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/blockdev:$(TARGET_COPY_OUT_VENDOR)/bin/blockdev \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/boringssl_self_test32:$(TARGET_COPY_OUT_VENDOR)/bin/boringssl_self_test32 \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/boringssl_self_test64:$(TARGET_COPY_OUT_VENDOR)/bin/boringssl_self_test64 \
     vendor/xiaomi/chopin/proprietary/vendor/bin/bp_kmsetkey_ca:$(TARGET_COPY_OUT_VENDOR)/bin/bp_kmsetkey_ca \
     vendor/xiaomi/chopin/proprietary/vendor/bin/bt_dump:$(TARGET_COPY_OUT_VENDOR)/bin/bt_dump \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/cal:$(TARGET_COPY_OUT_VENDOR)/bin/cal \
     vendor/xiaomi/chopin/proprietary/vendor/bin/capture_headsetmic.sh:$(TARGET_COPY_OUT_VENDOR)/bin/capture_headsetmic.sh \
     vendor/xiaomi/chopin/proprietary/vendor/bin/capture.sh:$(TARGET_COPY_OUT_VENDOR)/bin/capture.sh \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/cat:$(TARGET_COPY_OUT_VENDOR)/bin/cat \
     vendor/xiaomi/chopin/proprietary/vendor/bin/ccci_mdinit:$(TARGET_COPY_OUT_VENDOR)/bin/ccci_mdinit \
     vendor/xiaomi/chopin/proprietary/vendor/bin/ccci_rpcd:$(TARGET_COPY_OUT_VENDOR)/bin/ccci_rpcd \
     vendor/xiaomi/chopin/proprietary/vendor/bin/charge_logger:$(TARGET_COPY_OUT_VENDOR)/bin/charge_logger \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/chattr:$(TARGET_COPY_OUT_VENDOR)/bin/chattr \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/chcon:$(TARGET_COPY_OUT_VENDOR)/bin/chcon \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/chgrp:$(TARGET_COPY_OUT_VENDOR)/bin/chgrp \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/chipinfo:$(TARGET_COPY_OUT_VENDOR)/bin/chipinfo \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/chmod:$(TARGET_COPY_OUT_VENDOR)/bin/chmod \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/chown:$(TARGET_COPY_OUT_VENDOR)/bin/chown \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/chroot:$(TARGET_COPY_OUT_VENDOR)/bin/chroot \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/chrt:$(TARGET_COPY_OUT_VENDOR)/bin/chrt \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/cksum:$(TARGET_COPY_OUT_VENDOR)/bin/cksum \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/clear:$(TARGET_COPY_OUT_VENDOR)/bin/clear \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/cmp:$(TARGET_COPY_OUT_VENDOR)/bin/cmp \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/comm:$(TARGET_COPY_OUT_VENDOR)/bin/comm \
     vendor/xiaomi/chopin/proprietary/vendor/bin/conninfra_loader:$(TARGET_COPY_OUT_VENDOR)/bin/conninfra_loader \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/cp:$(TARGET_COPY_OUT_VENDOR)/bin/cp \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/cpio:$(TARGET_COPY_OUT_VENDOR)/bin/cpio \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/cut:$(TARGET_COPY_OUT_VENDOR)/bin/cut \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/date:$(TARGET_COPY_OUT_VENDOR)/bin/date \
     vendor/xiaomi/chopin/proprietary/vendor/bin/dconfig:$(TARGET_COPY_OUT_VENDOR)/bin/dconfig \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/dd:$(TARGET_COPY_OUT_VENDOR)/bin/dd \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/devmem:$(TARGET_COPY_OUT_VENDOR)/bin/devmem \
     vendor/xiaomi/chopin/proprietary/vendor/bin/dexecutor:$(TARGET_COPY_OUT_VENDOR)/bin/dexecutor \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/df:$(TARGET_COPY_OUT_VENDOR)/bin/df \
     vendor/xiaomi/chopin/proprietary/vendor/bin/DFtool:$(TARGET_COPY_OUT_VENDOR)/bin/DFtool \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/diff:$(TARGET_COPY_OUT_VENDOR)/bin/diff \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/dirname:$(TARGET_COPY_OUT_VENDOR)/bin/dirname \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/dmabuf_dump:$(TARGET_COPY_OUT_VENDOR)/bin/dmabuf_dump \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/dmc_core:$(TARGET_COPY_OUT_VENDOR)/bin/dmc_core \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/dmesg:$(TARGET_COPY_OUT_VENDOR)/bin/dmesg \
     vendor/xiaomi/chopin/proprietary/vendor/bin/doeapp-memtester:$(TARGET_COPY_OUT_VENDOR)/bin/doeapp-memtester \
     vendor/xiaomi/chopin/proprietary/vendor/bin/doeapp-sat:$(TARGET_COPY_OUT_VENDOR)/bin/doeapp-sat \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/dos2unix:$(TARGET_COPY_OUT_VENDOR)/bin/dos2unix \
     vendor/xiaomi/chopin/proprietary/vendor/bin/dtc_vendor:$(TARGET_COPY_OUT_VENDOR)/bin/dtc_vendor \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/du:$(TARGET_COPY_OUT_VENDOR)/bin/du \
     vendor/xiaomi/chopin/proprietary/vendor/bin/dumpfaultd:$(TARGET_COPY_OUT_VENDOR)/bin/dumpfaultd \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/dumpsys:$(TARGET_COPY_OUT_VENDOR)/bin/dumpsys \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/echo:$(TARGET_COPY_OUT_VENDOR)/bin/echo \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/egrep:$(TARGET_COPY_OUT_VENDOR)/bin/egrep \
     vendor/xiaomi/chopin/proprietary/vendor/bin/em_hidl:$(TARGET_COPY_OUT_VENDOR)/bin/em_hidl \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/env:$(TARGET_COPY_OUT_VENDOR)/bin/env \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/expand:$(TARGET_COPY_OUT_VENDOR)/bin/expand \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/expr:$(TARGET_COPY_OUT_VENDOR)/bin/expr \
     vendor/xiaomi/chopin/proprietary/vendor/bin/factory:$(TARGET_COPY_OUT_VENDOR)/bin/factory \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/fallocate:$(TARGET_COPY_OUT_VENDOR)/bin/fallocate \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/false:$(TARGET_COPY_OUT_VENDOR)/bin/false \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/fgrep:$(TARGET_COPY_OUT_VENDOR)/bin/fgrep \
     vendor/xiaomi/chopin/proprietary/vendor/bin/fidoca_isee:$(TARGET_COPY_OUT_VENDOR)/bin/fidoca_isee \
     vendor/xiaomi/chopin/proprietary/vendor/bin/fidoca_mitee:$(TARGET_COPY_OUT_VENDOR)/bin/fidoca_mitee \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/file:$(TARGET_COPY_OUT_VENDOR)/bin/file \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/find:$(TARGET_COPY_OUT_VENDOR)/bin/find \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/flock:$(TARGET_COPY_OUT_VENDOR)/bin/flock \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/fmt:$(TARGET_COPY_OUT_VENDOR)/bin/fmt \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/free:$(TARGET_COPY_OUT_VENDOR)/bin/free \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/fsync:$(TARGET_COPY_OUT_VENDOR)/bin/fsync \
     vendor/xiaomi/chopin/proprietary/vendor/bin/fuelgauged:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged \
     vendor/xiaomi/chopin/proprietary/vendor/bin/fuelgauged_nvram:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged_nvram \
     vendor/xiaomi/chopin/proprietary/vendor/bin/gbe:$(TARGET_COPY_OUT_VENDOR)/bin/gbe \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/getconf:$(TARGET_COPY_OUT_VENDOR)/bin/getconf \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/getenforce:$(TARGET_COPY_OUT_VENDOR)/bin/getenforce \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/getevent:$(TARGET_COPY_OUT_VENDOR)/bin/getevent \
     vendor/xiaomi/chopin/proprietary/vendor/bin/getgameserver:$(TARGET_COPY_OUT_VENDOR)/bin/getgameserver \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/getprop:$(TARGET_COPY_OUT_VENDOR)/bin/getprop \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/grep:$(TARGET_COPY_OUT_VENDOR)/bin/grep \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/groups:$(TARGET_COPY_OUT_VENDOR)/bin/groups \
     vendor/xiaomi/chopin/proprietary/vendor/bin/gsm0710muxd:$(TARGET_COPY_OUT_VENDOR)/bin/gsm0710muxd \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/gunzip:$(TARGET_COPY_OUT_VENDOR)/bin/gunzip \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/gzip:$(TARGET_COPY_OUT_VENDOR)/bin/gzip \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/head:$(TARGET_COPY_OUT_VENDOR)/bin/head \
     vendor/xiaomi/chopin/proprietary/vendor/bin/hostapd_cli:$(TARGET_COPY_OUT_VENDOR)/bin/hostapd_cli \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/hostname:$(TARGET_COPY_OUT_VENDOR)/bin/hostname \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/hwclock:$(TARGET_COPY_OUT_VENDOR)/bin/hwclock \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/i2cdetect:$(TARGET_COPY_OUT_VENDOR)/bin/i2cdetect \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/i2cdump:$(TARGET_COPY_OUT_VENDOR)/bin/i2cdump \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/i2cget:$(TARGET_COPY_OUT_VENDOR)/bin/i2cget \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/i2cset:$(TARGET_COPY_OUT_VENDOR)/bin/i2cset \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/iconv:$(TARGET_COPY_OUT_VENDOR)/bin/iconv \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/id:$(TARGET_COPY_OUT_VENDOR)/bin/id \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/ifconfig:$(TARGET_COPY_OUT_VENDOR)/bin/ifconfig \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/init.insmod.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.insmod.sh \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/inotifyd:$(TARGET_COPY_OUT_VENDOR)/bin/inotifyd \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/insmod:$(TARGET_COPY_OUT_VENDOR)/bin/insmod \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/install:$(TARGET_COPY_OUT_VENDOR)/bin/install \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/ionice:$(TARGET_COPY_OUT_VENDOR)/bin/ionice \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/iorenice:$(TARGET_COPY_OUT_VENDOR)/bin/iorenice \
     vendor/xiaomi/chopin/proprietary/vendor/bin/ipsec_mon:$(TARGET_COPY_OUT_VENDOR)/bin/ipsec_mon \
     vendor/xiaomi/chopin/proprietary/vendor/bin/jpegtool:$(TARGET_COPY_OUT_VENDOR)/bin/jpegtool \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/kill:$(TARGET_COPY_OUT_VENDOR)/bin/kill \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/killall:$(TARGET_COPY_OUT_VENDOR)/bin/killall \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/kmsetkey:$(TARGET_COPY_OUT_VENDOR)/bin/kmsetkey \
     vendor/xiaomi/chopin/proprietary/vendor/bin/lbs_hidl_service:$(TARGET_COPY_OUT_VENDOR)/bin/lbs_hidl_service \
     vendor/xiaomi/chopin/proprietary/vendor/bin/lib3a.ccu.ddr:$(TARGET_COPY_OUT_VENDOR)/bin/lib3a.ccu.ddr \
     vendor/xiaomi/chopin/proprietary/vendor/bin/lib3a.ccu.dm:$(TARGET_COPY_OUT_VENDOR)/bin/lib3a.ccu.dm \
     vendor/xiaomi/chopin/proprietary/vendor/bin/lib3a.ccu.pm:$(TARGET_COPY_OUT_VENDOR)/bin/lib3a.ccu.pm \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/ln:$(TARGET_COPY_OUT_VENDOR)/bin/ln \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/load_policy:$(TARGET_COPY_OUT_VENDOR)/bin/load_policy \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/log:$(TARGET_COPY_OUT_VENDOR)/bin/log \
     vendor/xiaomi/chopin/proprietary/vendor/bin/loghidlvendorservice:$(TARGET_COPY_OUT_VENDOR)/bin/loghidlvendorservice \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/logname:$(TARGET_COPY_OUT_VENDOR)/bin/logname \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/logwrapper:$(TARGET_COPY_OUT_VENDOR)/bin/logwrapper \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/losetup:$(TARGET_COPY_OUT_VENDOR)/bin/losetup \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/ls:$(TARGET_COPY_OUT_VENDOR)/bin/ls \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/lsattr:$(TARGET_COPY_OUT_VENDOR)/bin/lsattr \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/lsmod:$(TARGET_COPY_OUT_VENDOR)/bin/lsmod \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/lsof:$(TARGET_COPY_OUT_VENDOR)/bin/lsof \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/lspci:$(TARGET_COPY_OUT_VENDOR)/bin/lspci \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/lsusb:$(TARGET_COPY_OUT_VENDOR)/bin/lsusb \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/md5sum:$(TARGET_COPY_OUT_VENDOR)/bin/md5sum \
     vendor/xiaomi/chopin/proprietary/vendor/bin/md_monitor:$(TARGET_COPY_OUT_VENDOR)/bin/md_monitor \
     vendor/xiaomi/chopin/proprietary/vendor/bin/md_monitor_ctrl:$(TARGET_COPY_OUT_VENDOR)/bin/md_monitor_ctrl \
     vendor/xiaomi/chopin/proprietary/vendor/bin/meta_tst:$(TARGET_COPY_OUT_VENDOR)/bin/meta_tst \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/microcom:$(TARGET_COPY_OUT_VENDOR)/bin/microcom \
     vendor/xiaomi/chopin/proprietary/vendor/bin/MI_IC:$(TARGET_COPY_OUT_VENDOR)/bin/MI_IC \
     vendor/xiaomi/chopin/proprietary/vendor/bin/MI_RIC:$(TARGET_COPY_OUT_VENDOR)/bin/MI_RIC \
     vendor/xiaomi/chopin/proprietary/vendor/bin/mishow.sh:$(TARGET_COPY_OUT_VENDOR)/bin/mishow.sh \
     vendor/xiaomi/chopin/proprietary/vendor/bin/miteelog:$(TARGET_COPY_OUT_VENDOR)/bin/miteelog \
     vendor/xiaomi/chopin/proprietary/vendor/bin/mitee_shell:$(TARGET_COPY_OUT_VENDOR)/bin/mitee_shell \
     vendor/xiaomi/chopin/proprietary/vendor/bin/mi_thermald:$(TARGET_COPY_OUT_VENDOR)/bin/mi_thermald \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/mkdir:$(TARGET_COPY_OUT_VENDOR)/bin/mkdir \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/mkfifo:$(TARGET_COPY_OUT_VENDOR)/bin/mkfifo \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/mknod:$(TARGET_COPY_OUT_VENDOR)/bin/mknod \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/mkswap:$(TARGET_COPY_OUT_VENDOR)/bin/mkswap \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/mktemp:$(TARGET_COPY_OUT_VENDOR)/bin/mktemp \
     vendor/xiaomi/chopin/proprietary/vendor/bin/mlipayd_isee@1.1:$(TARGET_COPY_OUT_VENDOR)/bin/mlipayd_isee@1.1 \
     vendor/xiaomi/chopin/proprietary/vendor/bin/mlipayd_mitee@1.1:$(TARGET_COPY_OUT_VENDOR)/bin/mlipayd_mitee@1.1 \
     vendor/xiaomi/chopin/proprietary/vendor/bin/mnld:$(TARGET_COPY_OUT_VENDOR)/bin/mnld \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/modinfo:$(TARGET_COPY_OUT_VENDOR)/bin/modinfo \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/modprobe:$(TARGET_COPY_OUT_VENDOR)/bin/modprobe \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/more:$(TARGET_COPY_OUT_VENDOR)/bin/more \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/mount:$(TARGET_COPY_OUT_VENDOR)/bin/mount \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/mountpoint:$(TARGET_COPY_OUT_VENDOR)/bin/mountpoint \
     vendor/xiaomi/chopin/proprietary/vendor/bin/mrdump_tool:$(TARGET_COPY_OUT_VENDOR)/bin/mrdump_tool \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/mt6660_calibration:$(TARGET_COPY_OUT_VENDOR)/bin/mt6660_calibration \
     vendor/xiaomi/chopin/proprietary/vendor/bin/mtd_isee@1.2:$(TARGET_COPY_OUT_VENDOR)/bin/mtd_isee@1.2 \
     vendor/xiaomi/chopin/proprietary/vendor/bin/mtd_mitee@1.2:$(TARGET_COPY_OUT_VENDOR)/bin/mtd_mitee@1.2 \
     vendor/xiaomi/chopin/proprietary/vendor/bin/mtk_agpsd:$(TARGET_COPY_OUT_VENDOR)/bin/mtk_agpsd \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/mtk_pkm_service:$(TARGET_COPY_OUT_VENDOR)/bin/mtk_pkm_service \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/mtk_plpath_utils_ota:$(TARGET_COPY_OUT_VENDOR)/bin/mtk_plpath_utils_ota \
     vendor/xiaomi/chopin/proprietary/vendor/bin/muxreport:$(TARGET_COPY_OUT_VENDOR)/bin/muxreport \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/mv:$(TARGET_COPY_OUT_VENDOR)/bin/mv \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/nc:$(TARGET_COPY_OUT_VENDOR)/bin/nc \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/netcat:$(TARGET_COPY_OUT_VENDOR)/bin/netcat \
     vendor/xiaomi/chopin/proprietary/vendor/bin/netdagent:$(TARGET_COPY_OUT_VENDOR)/bin/netdagent \
     vendor/xiaomi/chopin/proprietary/vendor/bin/netdc:$(TARGET_COPY_OUT_VENDOR)/bin/netdc \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/netstat:$(TARGET_COPY_OUT_VENDOR)/bin/netstat \
     vendor/xiaomi/chopin/proprietary/vendor/bin/nfcstackp-vendor:$(TARGET_COPY_OUT_VENDOR)/bin/nfcstackp-vendor \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/nice:$(TARGET_COPY_OUT_VENDOR)/bin/nice \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/nl:$(TARGET_COPY_OUT_VENDOR)/bin/nl \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/nohup:$(TARGET_COPY_OUT_VENDOR)/bin/nohup \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/nproc:$(TARGET_COPY_OUT_VENDOR)/bin/nproc \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/nsenter:$(TARGET_COPY_OUT_VENDOR)/bin/nsenter \
     vendor/xiaomi/chopin/proprietary/vendor/bin/nvram_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/nvram_daemon \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/od:$(TARGET_COPY_OUT_VENDOR)/bin/od \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/paste:$(TARGET_COPY_OUT_VENDOR)/bin/paste \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/patch:$(TARGET_COPY_OUT_VENDOR)/bin/patch \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/pgrep:$(TARGET_COPY_OUT_VENDOR)/bin/pgrep \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/pidof:$(TARGET_COPY_OUT_VENDOR)/bin/pidof \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/pkill:$(TARGET_COPY_OUT_VENDOR)/bin/pkill \
     vendor/xiaomi/chopin/proprietary/vendor/bin/playback_headset.sh:$(TARGET_COPY_OUT_VENDOR)/bin/playback_headset.sh \
     vendor/xiaomi/chopin/proprietary/vendor/bin/playback.sh:$(TARGET_COPY_OUT_VENDOR)/bin/playback.sh \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/pmap:$(TARGET_COPY_OUT_VENDOR)/bin/pmap \
     vendor/xiaomi/chopin/proprietary/vendor/bin/pnscr:$(TARGET_COPY_OUT_VENDOR)/bin/pnscr \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/printenv:$(TARGET_COPY_OUT_VENDOR)/bin/printenv \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/printf:$(TARGET_COPY_OUT_VENDOR)/bin/printf \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/ps:$(TARGET_COPY_OUT_VENDOR)/bin/ps \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/pwd:$(TARGET_COPY_OUT_VENDOR)/bin/pwd \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/rcs_volte_stack:$(TARGET_COPY_OUT_VENDOR)/bin/rcs_volte_stack \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/readelf:$(TARGET_COPY_OUT_VENDOR)/bin/readelf \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/readlink:$(TARGET_COPY_OUT_VENDOR)/bin/readlink \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/realpath:$(TARGET_COPY_OUT_VENDOR)/bin/realpath \
     vendor/xiaomi/chopin/proprietary/vendor/bin/recordevent:$(TARGET_COPY_OUT_VENDOR)/bin/recordevent \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/renice:$(TARGET_COPY_OUT_VENDOR)/bin/renice \
     vendor/xiaomi/chopin/proprietary/vendor/bin/replayevent:$(TARGET_COPY_OUT_VENDOR)/bin/replayevent \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/restorecon:$(TARGET_COPY_OUT_VENDOR)/bin/restorecon \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/rm:$(TARGET_COPY_OUT_VENDOR)/bin/rm \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/rmdir:$(TARGET_COPY_OUT_VENDOR)/bin/rmdir \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/rmmod:$(TARGET_COPY_OUT_VENDOR)/bin/rmmod \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/rt5512_calibration:$(TARGET_COPY_OUT_VENDOR)/bin/rt5512_calibration \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/rtcwake:$(TARGET_COPY_OUT_VENDOR)/bin/rtcwake \
     vendor/xiaomi/chopin/proprietary/vendor/bin/rttv:$(TARGET_COPY_OUT_VENDOR)/bin/rttv \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/runcon:$(TARGET_COPY_OUT_VENDOR)/bin/runcon \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/sed:$(TARGET_COPY_OUT_VENDOR)/bin/sed \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/sendevent:$(TARGET_COPY_OUT_VENDOR)/bin/sendevent \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/seq:$(TARGET_COPY_OUT_VENDOR)/bin/seq \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/setenforce:$(TARGET_COPY_OUT_VENDOR)/bin/setenforce \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/setprop:$(TARGET_COPY_OUT_VENDOR)/bin/setprop \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/setsid:$(TARGET_COPY_OUT_VENDOR)/bin/setsid \
     vendor/xiaomi/chopin/proprietary/vendor/bin/setup_backmic2headphone.sh:$(TARGET_COPY_OUT_VENDOR)/bin/setup_backmic2headphone.sh \
     vendor/xiaomi/chopin/proprietary/vendor/bin/setup_fct:$(TARGET_COPY_OUT_VENDOR)/bin/setup_fct \
     vendor/xiaomi/chopin/proprietary/vendor/bin/setup_headsetmic2headphone.sh:$(TARGET_COPY_OUT_VENDOR)/bin/setup_headsetmic2headphone.sh \
@@ -851,92 +641,30 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chopin/proprietary/vendor/bin/setup_rcv2mainmic.sh:$(TARGET_COPY_OUT_VENDOR)/bin/setup_rcv2mainmic.sh \
     vendor/xiaomi/chopin/proprietary/vendor/bin/setup_rcv2topmic.sh:$(TARGET_COPY_OUT_VENDOR)/bin/setup_rcv2topmic.sh \
     vendor/xiaomi/chopin/proprietary/vendor/bin/setup_topmic2headphone.sh:$(TARGET_COPY_OUT_VENDOR)/bin/setup_topmic2headphone.sh \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/sh:$(TARGET_COPY_OUT_VENDOR)/bin/sh \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/sha1sum:$(TARGET_COPY_OUT_VENDOR)/bin/sha1sum \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/sha224sum:$(TARGET_COPY_OUT_VENDOR)/bin/sha224sum \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/sha256sum:$(TARGET_COPY_OUT_VENDOR)/bin/sha256sum \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/sha384sum:$(TARGET_COPY_OUT_VENDOR)/bin/sha384sum \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/sha512sum:$(TARGET_COPY_OUT_VENDOR)/bin/sha512sum \
     vendor/xiaomi/chopin/proprietary/vendor/bin/slad:$(TARGET_COPY_OUT_VENDOR)/bin/slad \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/sleep:$(TARGET_COPY_OUT_VENDOR)/bin/sleep \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/smartcharging:$(TARGET_COPY_OUT_VENDOR)/bin/smartcharging \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/sort:$(TARGET_COPY_OUT_VENDOR)/bin/sort \
     vendor/xiaomi/chopin/proprietary/vendor/bin/soterd:$(TARGET_COPY_OUT_VENDOR)/bin/soterd \
     vendor/xiaomi/chopin/proprietary/vendor/bin/SoterProvisioningTool_isee:$(TARGET_COPY_OUT_VENDOR)/bin/SoterProvisioningTool_isee \
     vendor/xiaomi/chopin/proprietary/vendor/bin/SoterProvisioningTool_mitee:$(TARGET_COPY_OUT_VENDOR)/bin/SoterProvisioningTool_mitee \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/split:$(TARGET_COPY_OUT_VENDOR)/bin/split \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/start:$(TARGET_COPY_OUT_VENDOR)/bin/start \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/stat:$(TARGET_COPY_OUT_VENDOR)/bin/stat \
     vendor/xiaomi/chopin/proprietary/vendor/bin/st_factorytests-vendor:$(TARGET_COPY_OUT_VENDOR)/bin/st_factorytests-vendor \
     vendor/xiaomi/chopin/proprietary/vendor/bin/STFlashTool:$(TARGET_COPY_OUT_VENDOR)/bin/STFlashTool \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/stop:$(TARGET_COPY_OUT_VENDOR)/bin/stop \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/strings:$(TARGET_COPY_OUT_VENDOR)/bin/strings \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/stty:$(TARGET_COPY_OUT_VENDOR)/bin/stty \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/swapoff:$(TARGET_COPY_OUT_VENDOR)/bin/swapoff \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/swapon:$(TARGET_COPY_OUT_VENDOR)/bin/swapon \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/sync:$(TARGET_COPY_OUT_VENDOR)/bin/sync \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/sysctl:$(TARGET_COPY_OUT_VENDOR)/bin/sysctl \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/tac:$(TARGET_COPY_OUT_VENDOR)/bin/tac \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/tail:$(TARGET_COPY_OUT_VENDOR)/bin/tail \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/tar:$(TARGET_COPY_OUT_VENDOR)/bin/tar \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/taskset:$(TARGET_COPY_OUT_VENDOR)/bin/taskset \
     vendor/xiaomi/chopin/proprietary/vendor/bin/tcpdump:$(TARGET_COPY_OUT_VENDOR)/bin/tcpdump \
     vendor/xiaomi/chopin/proprietary/vendor/bin/teardown_loopback.sh:$(TARGET_COPY_OUT_VENDOR)/bin/teardown_loopback.sh \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/tee:$(TARGET_COPY_OUT_VENDOR)/bin/tee \
     vendor/xiaomi/chopin/proprietary/vendor/bin/teei_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/teei_daemon \
     vendor/xiaomi/chopin/proprietary/vendor/bin/tee-supplicant:$(TARGET_COPY_OUT_VENDOR)/bin/tee-supplicant \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/test:$(TARGET_COPY_OUT_VENDOR)/bin/test \
     vendor/xiaomi/chopin/proprietary/vendor/bin/testgameserver:$(TARGET_COPY_OUT_VENDOR)/bin/testgameserver \
     vendor/xiaomi/chopin/proprietary/vendor/bin/thermal:$(TARGET_COPY_OUT_VENDOR)/bin/thermal \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/thermal_core:$(TARGET_COPY_OUT_VENDOR)/bin/thermal_core \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/thermal_intf:$(TARGET_COPY_OUT_VENDOR)/bin/thermal_intf \
     vendor/xiaomi/chopin/proprietary/vendor/bin/thermalloadalgod:$(TARGET_COPY_OUT_VENDOR)/bin/thermalloadalgod \
     vendor/xiaomi/chopin/proprietary/vendor/bin/thermal_manager:$(TARGET_COPY_OUT_VENDOR)/bin/thermal_manager \
     vendor/xiaomi/chopin/proprietary/vendor/bin/tidad_isee@1.1:$(TARGET_COPY_OUT_VENDOR)/bin/tidad_isee@1.1 \
     vendor/xiaomi/chopin/proprietary/vendor/bin/tidad_mitee@1.1:$(TARGET_COPY_OUT_VENDOR)/bin/tidad_mitee@1.1 \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/time:$(TARGET_COPY_OUT_VENDOR)/bin/time \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/timeout:$(TARGET_COPY_OUT_VENDOR)/bin/timeout \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/toolbox:$(TARGET_COPY_OUT_VENDOR)/bin/toolbox \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/top:$(TARGET_COPY_OUT_VENDOR)/bin/top \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/touch:$(TARGET_COPY_OUT_VENDOR)/bin/touch \
     vendor/xiaomi/chopin/proprietary/vendor/bin/toucheventcheck:$(TARGET_COPY_OUT_VENDOR)/bin/toucheventcheck \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/toybox_vendor:$(TARGET_COPY_OUT_VENDOR)/bin/toybox_vendor \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/tr:$(TARGET_COPY_OUT_VENDOR)/bin/tr \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/true:$(TARGET_COPY_OUT_VENDOR)/bin/true \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/truncate:$(TARGET_COPY_OUT_VENDOR)/bin/truncate \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/tty:$(TARGET_COPY_OUT_VENDOR)/bin/tty \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/ulimit:$(TARGET_COPY_OUT_VENDOR)/bin/ulimit \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/umount:$(TARGET_COPY_OUT_VENDOR)/bin/umount \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/uname:$(TARGET_COPY_OUT_VENDOR)/bin/uname \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/uniq:$(TARGET_COPY_OUT_VENDOR)/bin/uniq \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/unix2dos:$(TARGET_COPY_OUT_VENDOR)/bin/unix2dos \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/unlink:$(TARGET_COPY_OUT_VENDOR)/bin/unlink \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/unshare:$(TARGET_COPY_OUT_VENDOR)/bin/unshare \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/uptime:$(TARGET_COPY_OUT_VENDOR)/bin/uptime \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/usleep:$(TARGET_COPY_OUT_VENDOR)/bin/usleep \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/uudecode:$(TARGET_COPY_OUT_VENDOR)/bin/uudecode \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/uuencode:$(TARGET_COPY_OUT_VENDOR)/bin/uuencode \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/uuidgen:$(TARGET_COPY_OUT_VENDOR)/bin/uuidgen \
     vendor/xiaomi/chopin/proprietary/vendor/bin/vib_cal:$(TARGET_COPY_OUT_VENDOR)/bin/vib_cal \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/vmstat:$(TARGET_COPY_OUT_VENDOR)/bin/vmstat \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/vndservice:$(TARGET_COPY_OUT_VENDOR)/bin/vndservice \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/vndservicemanager:$(TARGET_COPY_OUT_VENDOR)/bin/vndservicemanager \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/volte_clientapi_ua:$(TARGET_COPY_OUT_VENDOR)/bin/volte_clientapi_ua \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/volte_rcs_ua:$(TARGET_COPY_OUT_VENDOR)/bin/volte_rcs_ua \
     vendor/xiaomi/chopin/proprietary/vendor/bin/vpud:$(TARGET_COPY_OUT_VENDOR)/bin/vpud \
     vendor/xiaomi/chopin/proprietary/vendor/bin/vsimd_isee:$(TARGET_COPY_OUT_VENDOR)/bin/vsimd_isee \
     vendor/xiaomi/chopin/proprietary/vendor/bin/vsimd_mitee:$(TARGET_COPY_OUT_VENDOR)/bin/vsimd_mitee \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/watch:$(TARGET_COPY_OUT_VENDOR)/bin/watch \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/wc:$(TARGET_COPY_OUT_VENDOR)/bin/wc \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/which:$(TARGET_COPY_OUT_VENDOR)/bin/which \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/whoami:$(TARGET_COPY_OUT_VENDOR)/bin/whoami \
     vendor/xiaomi/chopin/proprietary/vendor/bin/wifi_dump:$(TARGET_COPY_OUT_VENDOR)/bin/wifi_dump \
     vendor/xiaomi/chopin/proprietary/vendor/bin/wlan_assistant:$(TARGET_COPY_OUT_VENDOR)/bin/wlan_assistant \
     vendor/xiaomi/chopin/proprietary/vendor/bin/wpa_cli:$(TARGET_COPY_OUT_VENDOR)/bin/wpa_cli \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/xargs:$(TARGET_COPY_OUT_VENDOR)/bin/xargs \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/xxd:$(TARGET_COPY_OUT_VENDOR)/bin/xxd \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/yes:$(TARGET_COPY_OUT_VENDOR)/bin/yes \
-    vendor/xiaomi/chopin/proprietary/vendor/bin/zcat:$(TARGET_COPY_OUT_VENDOR)/bin/zcat \
     vendor/xiaomi/chopin/proprietary/vendor/bin/hw/android.hardware.audio.service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio.service.mediatek \
     vendor/xiaomi/chopin/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.1-service-mediatek \
     vendor/xiaomi/chopin/proprietary/vendor/bin/hw/android.hardware.boot@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.boot@1.2-service \
@@ -992,7 +720,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chopin/proprietary/vendor/bin/hw/vendor.xiaomi.hw.touchfeature@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.xiaomi.hw.touchfeature@1.0-service \
     vendor/xiaomi/chopin/proprietary/vendor/bin/hw/vtservice_hidl:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vtservice_hidl \
     vendor/xiaomi/chopin/proprietary/vendor/bin/hw/wpa_supplicant:$(TARGET_COPY_OUT_VENDOR)/bin/hw/wpa_supplicant \
-    vendor/xiaomi/chopin/proprietary/vendor/data/model/scene_detection.dla:$(TARGET_COPY_OUT_VENDOR)/data/model/scene_detection.dla \
     vendor/xiaomi/chopin/proprietary/vendor/etc/102_SummerDay.png:$(TARGET_COPY_OUT_VENDOR)/etc/102_SummerDay.png \
     vendor/xiaomi/chopin/proprietary/vendor/etc/103_Fantasy.png:$(TARGET_COPY_OUT_VENDOR)/etc/103_Fantasy.png \
     vendor/xiaomi/chopin/proprietary/vendor/etc/104_Meet.png:$(TARGET_COPY_OUT_VENDOR)/etc/104_Meet.png \
@@ -1348,36 +1075,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chopin/proprietary/vendor/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc \
     vendor/xiaomi/chopin/proprietary/vendor/etc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf \
     vendor/xiaomi/chopin/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/md/cacerts/ikev2/DigiCertGlobalRootCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/DigiCertGlobalRootCA.crt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/md/cacerts/ikev2/DigiCertGlobalRootG2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/DigiCertGlobalRootG2.crt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/md/cacerts/ikev2/DigiCertGlobalRootG3.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/DigiCertGlobalRootG3.crt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/md/cacerts/ikev2/Entrust.net_Certification_Authority_2048.cer:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/Entrust.net_Certification_Authority_2048.cer \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/md/cacerts/ikev2/GeoTrust_PCA_G3_Root.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/GeoTrust_PCA_G3_Root.der \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/md/cacerts/ikev2/GeoTrust_Primary_CA.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/GeoTrust_Primary_CA.der \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/md/cacerts/ikev2/GeoTrust_Primary_CA_G2_ECC.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/GeoTrust_Primary_CA_G2_ECC.der \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/md/cacerts/ikev2/GlobalSign_root_CA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/GlobalSign_root_CA.crt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/md/cacerts/ikev2/Root-R3.cer:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/Root-R3.cer \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/md/cacerts/ikev2/Root_CA_1003.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/Root_CA_1003.crt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/md/cacerts/ikev2/VeriSignClass3G4.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/VeriSignClass3G4.der \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/md/cacerts/ikev2/VeriSignClass3G5.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/VeriSignClass3G5.der \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/md/cacerts/ikev2/VeriSignUniversalRootCertification.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/VeriSignUniversalRootCertification.der \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/md/cacerts/ikev2/thawte.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/thawte.der \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/md/cacerts/tls/CertumCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/CertumCA.crt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/md/cacerts/tls/CertumOrganizationValidationCASHA2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/CertumOrganizationValidationCASHA2.crt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/md/cacerts/tls/CertumTrustedNetworkCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/CertumTrustedNetworkCA.crt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/md/cacerts/tls/CyberTrustJapanPublicCAG3.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/CyberTrustJapanPublicCAG3.crt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/md/cacerts/tls/DigiCertGlobalRootCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/DigiCertGlobalRootCA.crt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/md/cacerts/tls/DigiCertSHA2SecureServerCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/DigiCertSHA2SecureServerCA.crt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/md/cacerts/tls/DomenySslDvCertificationAuthority.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/DomenySslDvCertificationAuthority.crt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/md/cacerts/tls/EntrustCertificationAuthorityL1K.cer:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/EntrustCertificationAuthorityL1K.cer \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/md/cacerts/tls/EntrustRootCertificationAuthority.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/EntrustRootCertificationAuthority.crt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/md/cacerts/tls/EntrustRootCertificationAuthorityG2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/EntrustRootCertificationAuthorityG2.crt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/md/cacerts/tls/GoDaddyRootCertificateAuthorityG2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/GoDaddyRootCertificateAuthorityG2.crt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/md/cacerts/tls/GoDaddySecureCertificateAuthorityG2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/GoDaddySecureCertificateAuthorityG2.crt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/md/cacerts/tls/KPN_BV_PKIoverheid_Organisatie_Server_CA-G3_2019.cer:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/KPN_BV_PKIoverheid_Organisatie_Server_CA-G3_2019.cer \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/md/cacerts/tls/StaatderNederlandenOrganisatieServicesCA-G3.cer:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/StaatderNederlandenOrganisatieServicesCA-G3.cer \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/md/cacerts/tls/StaatderNederlandenRootCA-G3.cer:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/StaatderNederlandenRootCA-G3.cer \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/md/cacerts/tls/USERTrustRSACertificationAuthority.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/USERTrustRSACertificationAuthority.crt \
     vendor/xiaomi/chopin/proprietary/vendor/etc/mdota/MTK_MD_OTA_CONFIG.ini:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_MD_OTA_CONFIG.ini \
     vendor/xiaomi/chopin/proprietary/vendor/etc/mdota/MTK_OPOTA_GENERAL.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_GENERAL.mcfopota \
     vendor/xiaomi/chopin/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_1.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_1.mcfopota \
@@ -1544,164 +1241,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chopin/proprietary/vendor/etc/powerscntbl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerscntbl.xml \
     vendor/xiaomi/chopin/proprietary/vendor/etc/rcv.wav:$(TARGET_COPY_OUT_VENDOR)/etc/rcv.wav \
     vendor/xiaomi/chopin/proprietary/vendor/etc/rcv_pink.wav:$(TARGET_COPY_OUT_VENDOR)/etc/rcv_pink.wav \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/rsc/cn/ro.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/cn/ro.prop \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/rsc/cn/rw.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/cn/rw.prop \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/rsc/default/ro.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/default/ro.prop \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/rsc/default/rw.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/default/rw.prop \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/rsc/global/ro.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/global/ro.prop \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/rsc/global/rw.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/global/rw.prop \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/rsc/india/ro.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/india/ro.prop \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/rsc/india/rw.prop:$(TARGET_COPY_OUT_VENDOR)/etc/rsc/india/rw.prop \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/screen_light.xml:$(TARGET_COPY_OUT_VENDOR)/etc/screen_light.xml \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-mediatek-seccomp-policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/android.hardware.media.c2@1.2-mediatek-seccomp-policy \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/01419da9.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/01419da9.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/04f60c28.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/04f60c28.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/0d69c7e1.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/0d69c7e1.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/10531352.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/10531352.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/111e6273.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/111e6273.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/12d55845.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/12d55845.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/1ae85e5e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1ae85e5e.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/1df5a75f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1df5a75f.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/1e1eab7c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1e1eab7c.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/1e8e7201.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1e8e7201.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/1eb37bdf.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1eb37bdf.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/1f58a078.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/1f58a078.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/219d9499.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/219d9499.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/23f4c490.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/23f4c490.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/27af790d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/27af790d.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/2add47b6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/2add47b6.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/2d9dafe4.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/2d9dafe4.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/2fa87019.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/2fa87019.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/302904dd.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/302904dd.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/304d27c3.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/304d27c3.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/31188b5e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/31188b5e.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/33ee480d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/33ee480d.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/343eb6cb.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/343eb6cb.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/35105088.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/35105088.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/399e7759.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/399e7759.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/3ad48a91.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/3ad48a91.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/3c6676aa.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/3c6676aa.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/3c860d51.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/3c860d51.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/3c899c73.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/3c899c73.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/3c9a4d3b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/3c9a4d3b.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/3e7271e8.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/3e7271e8.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/40dc992e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/40dc992e.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/455f1b52.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/455f1b52.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/48a195d8.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/48a195d8.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/4be590e0.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/4be590e0.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/5046c355.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/5046c355.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/524d9b43.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/524d9b43.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/52b525c7.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/52b525c7.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/583d0756.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/583d0756.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/5a250ea7.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/5a250ea7.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/5a3f0ff8.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/5a3f0ff8.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/5acf816d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/5acf816d.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/5cf9d536.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/5cf9d536.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/5f47b495.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/5f47b495.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/60afe812.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/60afe812.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/6187b673.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/6187b673.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/63a2c897.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/63a2c897.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/69105f4f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/69105f4f.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/6b03dec0.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/6b03dec0.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/75680d2e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/75680d2e.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/76579174.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/76579174.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/7892ad52.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/7892ad52.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/7a7c655d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/7a7c655d.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/7a819ef2.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/7a819ef2.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/7c302982.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/7c302982.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/81b9768f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/81b9768f.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/82223c44.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/82223c44.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/83e9984f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/83e9984f.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/85cde254.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/85cde254.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/86212b19.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/86212b19.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/869fbf79.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/869fbf79.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/882de061.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/882de061.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/88950faa.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/88950faa.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/89c02a45.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/89c02a45.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/8d6437c3.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/8d6437c3.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/9282e51c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9282e51c.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/9339512a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9339512a.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/9479c8c3.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9479c8c3.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/9576d26b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9576d26b.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/9591a472.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9591a472.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/95aff9e3.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/95aff9e3.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/9685a493.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9685a493.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/985c1f52.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/985c1f52.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/9aef356c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9aef356c.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/9d6523ce.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9d6523ce.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/9f533518.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/9f533518.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/a2c66da8.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/a2c66da8.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/a3896b44.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/a3896b44.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/a7605362.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/a7605362.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/a81e292b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/a81e292b.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/a9d40e02.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/a9d40e02.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/ab5346f4.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/ab5346f4.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/ab59055e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/ab59055e.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/aeb67534.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/aeb67534.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/b0ed035a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b0ed035a.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/b0f3e76e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b0f3e76e.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/b3fb433b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b3fb433b.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/b74d2bd5.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b74d2bd5.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/b7db1890.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b7db1890.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/b872f2b4.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b872f2b4.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/b936d1c6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/b936d1c6.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/bc3f2570.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/bc3f2570.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/bd43e1dd.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/bd43e1dd.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/bdacca6f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/bdacca6f.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/bf64f35b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/bf64f35b.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/c2c1704e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c2c1704e.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/c491639e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c491639e.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/c51c224c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c51c224c.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/c559d742.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c559d742.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/c90bc37d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c90bc37d.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/cb156124.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/cb156124.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/cb1c3204.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/cb1c3204.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/ccc52f49.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/ccc52f49.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/cf701eeb.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/cf701eeb.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/d06393bb.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d06393bb.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/d0cddf45.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d0cddf45.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/d16a5865.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d16a5865.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/d18e9066.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d18e9066.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/d39b0a2c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d39b0a2c.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/d41b5e2a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d41b5e2a.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/d4c339cb.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d4c339cb.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/d59297b8.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d59297b8.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/d7746a63.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d7746a63.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/da7377f6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/da7377f6.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/dbc54cab.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/dbc54cab.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/dbff3a01.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/dbff3a01.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/dc99f41e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/dc99f41e.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/dfc0fe80.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/dfc0fe80.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/e442e424.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/e442e424.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/e48193cf.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/e48193cf.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/e8651083.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/e8651083.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/ed39abd0.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/ed39abd0.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/edcbddb5.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/edcbddb5.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/f013ecaf.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/f013ecaf.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/f0cd152c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/f0cd152c.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/f459871d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/f459871d.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/fb5fa911.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/fb5fa911.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/fd08c599.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/fd08c599.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts/fde84897.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/fde84897.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts_supl/111e6273.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/111e6273.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts_supl/3ad48a91.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/3ad48a91.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts_supl/7651b327.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/7651b327.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts_supl/c542733d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/c542733d.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts_supl/cec771d5.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/cec771d5.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts_supl/f336e3d1.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/f336e3d1.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts_supl/lab/18dc3a8d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/18dc3a8d.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts_supl/lab/1bc5ca0c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/1bc5ca0c.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts_supl/lab/1bc5ca0c.1:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/1bc5ca0c.1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts_supl/lab/2cbfcc3a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/2cbfcc3a.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts_supl/lab/35ef1c14.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/35ef1c14.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts_supl/lab/399e7759.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/399e7759.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts_supl/lab/586933d9.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/586933d9.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts_supl/lab/66272d0d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/66272d0d.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts_supl/lab/6f1dbe5e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/6f1dbe5e.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts_supl/lab/b5805141.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/b5805141.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts_supl/lab/b805b58a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/b805b58a.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts_supl/lab/ed7b215e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/ed7b215e.0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/security/cacerts_supl/lab/ef4b31e6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/ef4b31e6.0 \
     vendor/xiaomi/chopin/proprietary/vendor/etc/sla/slad.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sla/slad.conf \
     vendor/xiaomi/chopin/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
     vendor/xiaomi/chopin/proprietary/vendor/etc/smsdbvisitor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/smsdbvisitor.xml \
@@ -1739,787 +1278,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chopin/proprietary/vendor/etc/virtual-spn-conf-by-efpnn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efpnn.xml \
     vendor/xiaomi/chopin/proprietary/vendor/etc/virtual-spn-conf-by-efspn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efspn.xml \
     vendor/xiaomi/chopin/proprietary/vendor/etc/virtual-spn-conf-by-imsi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-imsi.xml \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/README.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/README.txt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/p2.3/bkd:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/p2.3/bkd \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/p2.3/model.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/p2.3/model.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/p2.3/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/p2.3/nl \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/p2.3/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/p2.3/p0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/p2.3/p1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/p2.3/p1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/p2.5/KerasModel:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/p2.5/KerasModel \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/p2.5/format.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/p2.5/format.txt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/p2.5/n0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/p2.5/n0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/p2.5/n1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/p2.5/n1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/p2.5/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/p2.5/nl \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/p2.5/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/p2.5/p0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/p2.5/p1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/p2.5/p1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/p2.5/pn1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/p2.5/pn1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/p2.5/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/p2.5/ubmModel0.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/p2.5/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/p2.5/ubmModel10.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/p2.5/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/p2.5/ubmModel3.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/p2.5/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/p2.5/ubmModel4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/p2/antiCmds/Model1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/p2/antiCmds/Model1.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/p2/antiCmds/Model4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/p2/antiCmds/Model4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/p2/antiCmds/c_e_dic.bin.f:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/p2/antiCmds/c_e_dic.bin.f \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/p2/antiCmds/c_e_dic.bin.gen:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/p2/antiCmds/c_e_dic.bin.gen \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/p2/antiCmds/c_e_dic.bin.l:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/p2/antiCmds/c_e_dic.bin.l \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/p2/antiCmds/c_e_dic.bin.p:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/p2/antiCmds/c_e_dic.bin.p \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/p2/antiCmds/c_e_dic.bin.t:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/p2/antiCmds/c_e_dic.bin.t \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/p2/antiCmds/commandfilr3.dic:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/p2/antiCmds/commandfilr3.dic \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/p2/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/p2/nl \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/p2/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/p2/p0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/p2/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/p2/ubmModel0.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/p2/ubmModel1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/p2/ubmModel1.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/p2/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/p2/ubmModel10.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/p2/ubmModel2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/p2/ubmModel2.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/p2/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/p2/ubmModel3.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/p2/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/p2/ubmModel4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/10:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/10 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/11:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/11 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/12:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/12 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/13:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/13 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/2:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/2 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/21:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/21 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/22:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/22 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/23:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/23 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/24:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/24 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/25:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/25 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/26:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/26 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/27:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/27 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/28:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/28 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/29:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/29 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/3:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/3 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/4:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/4 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/5:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/5 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/6:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/6 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/7:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/7 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/8:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/8 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/9:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/9 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/b:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/b \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/bkd:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/bkd \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/nl \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/nl.use_pcm:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/nl.use_pcm \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/nl.use_xor:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/dddd/supplement/nl.use_xor \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2.3/bkd:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2.3/bkd \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2.3/model.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2.3/model.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2.3/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2.3/nl \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2.3/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2.3/p0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2.3/p1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2.3/p1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2.5/KerasModel:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2.5/KerasModel \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2.5/format.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2.5/format.txt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2.5/n0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2.5/n0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2.5/n1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2.5/n1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2.5/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2.5/nl \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2.5/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2.5/p0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2.5/p1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2.5/p1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2.5/pn1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2.5/pn1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2.5/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2.5/ubmModel0.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2.5/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2.5/ubmModel10.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2.5/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2.5/ubmModel3.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2.5/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2.5/ubmModel4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2/antiCmds/Model1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2/antiCmds/Model1.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2/antiCmds/Model4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2/antiCmds/Model4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2/antiCmds/c_e_dic.bin.f:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2/antiCmds/c_e_dic.bin.f \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2/antiCmds/c_e_dic.bin.gen:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2/antiCmds/c_e_dic.bin.gen \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2/antiCmds/c_e_dic.bin.l:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2/antiCmds/c_e_dic.bin.l \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2/antiCmds/c_e_dic.bin.p:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2/antiCmds/c_e_dic.bin.p \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2/antiCmds/c_e_dic.bin.t:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2/antiCmds/c_e_dic.bin.t \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2/antiCmds/commandfilr3.dic:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2/antiCmds/commandfilr3.dic \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2/nl \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2/p0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2/ubmModel0.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2/ubmModel1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2/ubmModel1.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2/ubmModel10.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2/ubmModel2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2/ubmModel2.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2/ubmModel3.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/p2/ubmModel4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/10:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/10 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/11:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/11 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/12:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/12 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/13:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/13 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/2:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/2 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/21:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/21 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/22:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/22 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/23:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/23 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/24:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/24 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/25:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/25 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/26:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/26 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/27:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/27 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/28:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/28 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/29:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/29 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/3:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/3 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/4:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/4 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/5:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/5 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/6:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/6 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/7:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/7 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/8:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/8 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/9:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/9 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/b:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/b \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/bkd:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/bkd \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/nl \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/nl.use_pcm:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/nl.use_pcm \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/nl.use_xor:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/hhaa/supplement/nl.use_xor \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword02/keyphrase.xml:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword02/keyphrase.xml \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/README.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/README.txt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/128.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/128.dat \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/64.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/64.dat \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/README.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/README.txt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/antiCmds/Model1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/antiCmds/Model1.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/antiCmds/Model4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/antiCmds/Model4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/antiCmds/c_e_dic.bin.f:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/antiCmds/c_e_dic.bin.f \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/antiCmds/c_e_dic.bin.gen:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/antiCmds/c_e_dic.bin.gen \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/antiCmds/c_e_dic.bin.l:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/antiCmds/c_e_dic.bin.l \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/antiCmds/c_e_dic.bin.p:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/antiCmds/c_e_dic.bin.p \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/antiCmds/c_e_dic.bin.t:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/antiCmds/c_e_dic.bin.t \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/antiCmds/commandfilr3.dic:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/antiCmds/commandfilr3.dic \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/nl \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/p0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/ubmModel0.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/ubmModel0_BKD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/ubmModel0_BKD.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/ubmModel0_CMD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/ubmModel0_CMD.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/ubmModel1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/ubmModel1.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/ubmModel10.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/ubmModel2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/ubmModel2.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/ubmModel3.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.3/ubmModel4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/n0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/n0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/n1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/n1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/n2:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/n2 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/nl \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/p0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/p1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/p1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/p1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/p1.txt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/pn1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/pn1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/ubmModel0.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/ubmModel10.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/ubmModel3.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2.5/ubmModel4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/128.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/128.dat \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/64.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/64.dat \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/README.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/README.txt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/antiCmds/Model1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/antiCmds/Model1.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/antiCmds/Model4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/antiCmds/Model4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/antiCmds/c_e_dic.bin.f:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/antiCmds/c_e_dic.bin.f \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/antiCmds/c_e_dic.bin.gen:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/antiCmds/c_e_dic.bin.gen \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/antiCmds/c_e_dic.bin.l:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/antiCmds/c_e_dic.bin.l \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/antiCmds/c_e_dic.bin.p:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/antiCmds/c_e_dic.bin.p \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/antiCmds/c_e_dic.bin.t:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/antiCmds/c_e_dic.bin.t \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/antiCmds/commandfilr3.dic:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/antiCmds/commandfilr3.dic \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/nl \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/p0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/ubmModel0.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/ubmModel0_BKD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/ubmModel0_BKD.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/ubmModel0_CMD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/ubmModel0_CMD.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/ubmModel1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/ubmModel1.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/ubmModel10.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/ubmModel2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/ubmModel2.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/ubmModel3.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/p2/ubmModel4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/10:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/10 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/11:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/11 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/12:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/12 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/13:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/13 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/2:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/2 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/3:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/3 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/4:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/4 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/5:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/5 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/6:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/6 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/7:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/7 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/8:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/8 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/9:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/9 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/b:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/hhhh/supplement/b \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/de-DE/keyphrase.xml:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/de-DE/keyphrase.xml \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/128.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/128.dat \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/64.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/64.dat \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/README.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/README.txt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/antiCmds/Model1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/antiCmds/Model1.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/antiCmds/Model4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/antiCmds/Model4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/antiCmds/c_e_dic.bin.f:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/antiCmds/c_e_dic.bin.f \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/antiCmds/c_e_dic.bin.gen:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/antiCmds/c_e_dic.bin.gen \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/antiCmds/c_e_dic.bin.l:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/antiCmds/c_e_dic.bin.l \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/antiCmds/c_e_dic.bin.p:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/antiCmds/c_e_dic.bin.p \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/antiCmds/c_e_dic.bin.t:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/antiCmds/c_e_dic.bin.t \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/antiCmds/commandfilr3.dic:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/antiCmds/commandfilr3.dic \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/nl \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/p0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/ubmModel0.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/ubmModel0_BKD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/ubmModel0_BKD.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/ubmModel0_CMD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/ubmModel0_CMD.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/ubmModel1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/ubmModel1.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/ubmModel10.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/ubmModel2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/ubmModel2.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/ubmModel3.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.3/ubmModel4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/n0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/n0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/n1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/n1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/n2:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/n2 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/nl \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/p0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/p1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/p1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/p1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/p1.txt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/pn1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/pn1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/ubmModel0.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/ubmModel10.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/ubmModel3.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2.5/ubmModel4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/128.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/128.dat \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/64.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/64.dat \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/README.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/README.txt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/antiCmds/Model1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/antiCmds/Model1.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/antiCmds/Model4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/antiCmds/Model4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/antiCmds/c_e_dic.bin.f:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/antiCmds/c_e_dic.bin.f \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/antiCmds/c_e_dic.bin.gen:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/antiCmds/c_e_dic.bin.gen \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/antiCmds/c_e_dic.bin.l:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/antiCmds/c_e_dic.bin.l \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/antiCmds/c_e_dic.bin.p:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/antiCmds/c_e_dic.bin.p \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/antiCmds/c_e_dic.bin.t:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/antiCmds/c_e_dic.bin.t \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/antiCmds/commandfilr3.dic:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/antiCmds/commandfilr3.dic \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/nl \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/p0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/ubmModel0.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/ubmModel0_BKD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/ubmModel0_BKD.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/ubmModel0_CMD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/ubmModel0_CMD.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/ubmModel1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/ubmModel1.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/ubmModel10.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/ubmModel2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/ubmModel2.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/ubmModel3.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/p2/ubmModel4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/10:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/10 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/11:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/11 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/12:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/12 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/13:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/13 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/2:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/2 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/3:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/3 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/4:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/4 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/5:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/5 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/6:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/6 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/7:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/7 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/8:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/8 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/9:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/9 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/b:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/hhhh/supplement/b \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-GB/keyphrase.xml:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-GB/keyphrase.xml \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/128.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/128.dat \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/64.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/64.dat \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/README.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/README.txt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/antiCmds/Model1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/antiCmds/Model1.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/antiCmds/Model4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/antiCmds/Model4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/antiCmds/c_e_dic.bin.f:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/antiCmds/c_e_dic.bin.f \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/antiCmds/c_e_dic.bin.gen:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/antiCmds/c_e_dic.bin.gen \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/antiCmds/c_e_dic.bin.l:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/antiCmds/c_e_dic.bin.l \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/antiCmds/c_e_dic.bin.p:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/antiCmds/c_e_dic.bin.p \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/antiCmds/c_e_dic.bin.t:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/antiCmds/c_e_dic.bin.t \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/antiCmds/commandfilr3.dic:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/antiCmds/commandfilr3.dic \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/nl \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/p0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/ubmModel0.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/ubmModel0_BKD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/ubmModel0_BKD.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/ubmModel0_CMD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/ubmModel0_CMD.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/ubmModel1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/ubmModel1.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/ubmModel10.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/ubmModel2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/ubmModel2.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/ubmModel3.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.3/ubmModel4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/n0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/n0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/n1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/n1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/n2:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/n2 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/nl \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/p0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/p1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/p1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/p1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/p1.txt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/pn1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/pn1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/ubmModel0.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/ubmModel10.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/ubmModel3.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2.5/ubmModel4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/128.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/128.dat \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/64.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/64.dat \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/README.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/README.txt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/antiCmds/Model1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/antiCmds/Model1.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/antiCmds/Model4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/antiCmds/Model4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/antiCmds/c_e_dic.bin.f:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/antiCmds/c_e_dic.bin.f \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/antiCmds/c_e_dic.bin.gen:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/antiCmds/c_e_dic.bin.gen \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/antiCmds/c_e_dic.bin.l:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/antiCmds/c_e_dic.bin.l \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/antiCmds/c_e_dic.bin.p:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/antiCmds/c_e_dic.bin.p \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/antiCmds/c_e_dic.bin.t:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/antiCmds/c_e_dic.bin.t \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/antiCmds/commandfilr3.dic:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/antiCmds/commandfilr3.dic \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/nl \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/p0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/ubmModel0.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/ubmModel0_BKD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/ubmModel0_BKD.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/ubmModel0_CMD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/ubmModel0_CMD.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/ubmModel1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/ubmModel1.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/ubmModel10.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/ubmModel2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/ubmModel2.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/ubmModel3.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/p2/ubmModel4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/10:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/10 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/11:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/11 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/12:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/12 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/13:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/13 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/2:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/2 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/3:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/3 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/4:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/4 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/5:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/5 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/6:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/6 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/7:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/7 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/8:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/8 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/9:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/9 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/b:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/hhhh/supplement/b \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-IN/keyphrase.xml:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-IN/keyphrase.xml \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/128.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/128.dat \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/64.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/64.dat \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/README.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/README.txt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/antiCmds/Model1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/antiCmds/Model1.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/antiCmds/Model4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/antiCmds/Model4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/antiCmds/c_e_dic.bin.f:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/antiCmds/c_e_dic.bin.f \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/antiCmds/c_e_dic.bin.gen:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/antiCmds/c_e_dic.bin.gen \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/antiCmds/c_e_dic.bin.l:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/antiCmds/c_e_dic.bin.l \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/antiCmds/c_e_dic.bin.p:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/antiCmds/c_e_dic.bin.p \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/antiCmds/c_e_dic.bin.t:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/antiCmds/c_e_dic.bin.t \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/antiCmds/commandfilr3.dic:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/antiCmds/commandfilr3.dic \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/nl \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/p0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/ubmModel0.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/ubmModel0_BKD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/ubmModel0_BKD.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/ubmModel0_CMD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/ubmModel0_CMD.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/ubmModel1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/ubmModel1.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/ubmModel10.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/ubmModel2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/ubmModel2.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/ubmModel3.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.3/ubmModel4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/n0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/n0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/n1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/n1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/n2:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/n2 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/nl \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/p0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/p1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/p1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/p1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/p1.txt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/pn1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/pn1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/ubmModel0.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/ubmModel10.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/ubmModel3.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2.5/ubmModel4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/128.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/128.dat \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/64.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/64.dat \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/README.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/README.txt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/antiCmds/Model1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/antiCmds/Model1.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/antiCmds/Model4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/antiCmds/Model4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/antiCmds/c_e_dic.bin.f:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/antiCmds/c_e_dic.bin.f \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/antiCmds/c_e_dic.bin.gen:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/antiCmds/c_e_dic.bin.gen \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/antiCmds/c_e_dic.bin.l:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/antiCmds/c_e_dic.bin.l \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/antiCmds/c_e_dic.bin.p:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/antiCmds/c_e_dic.bin.p \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/antiCmds/c_e_dic.bin.t:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/antiCmds/c_e_dic.bin.t \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/antiCmds/commandfilr3.dic:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/antiCmds/commandfilr3.dic \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/nl \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/p0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/ubmModel0.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/ubmModel0_BKD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/ubmModel0_BKD.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/ubmModel0_CMD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/ubmModel0_CMD.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/ubmModel1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/ubmModel1.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/ubmModel10.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/ubmModel2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/ubmModel2.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/ubmModel3.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/p2/ubmModel4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/10:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/10 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/11:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/11 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/12:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/12 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/13:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/13 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/2:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/2 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/3:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/3 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/4:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/4 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/5:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/5 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/6:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/6 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/7:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/7 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/8:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/8 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/9:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/9 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/b:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/hhhh/supplement/b \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/en-US/keyphrase.xml:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/en-US/keyphrase.xml \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/128.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/128.dat \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/64.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/64.dat \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/README.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/README.txt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/antiCmds/Model1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/antiCmds/Model1.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/antiCmds/Model4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/antiCmds/Model4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/antiCmds/c_e_dic.bin.f:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/antiCmds/c_e_dic.bin.f \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/antiCmds/c_e_dic.bin.gen:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/antiCmds/c_e_dic.bin.gen \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/antiCmds/c_e_dic.bin.l:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/antiCmds/c_e_dic.bin.l \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/antiCmds/c_e_dic.bin.p:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/antiCmds/c_e_dic.bin.p \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/antiCmds/c_e_dic.bin.t:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/antiCmds/c_e_dic.bin.t \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/antiCmds/commandfilr3.dic:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/antiCmds/commandfilr3.dic \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/n0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/n0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/n1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/n1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/nl \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/p0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/p1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/p1.txt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/pn1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/pn1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/ubmModel0.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/ubmModel0_BKD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/ubmModel0_BKD.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/ubmModel0_CMD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/ubmModel0_CMD.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/ubmModel1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/ubmModel1.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/ubmModel10.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/ubmModel2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/ubmModel2.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/ubmModel3.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.3/ubmModel4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/n0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/n0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/n1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/n1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/n2:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/n2 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/nl \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/p0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/p1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/p1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/p1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/p1.txt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/pn1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/pn1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/ubmModel0.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/ubmModel10.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/ubmModel3.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2.5/ubmModel4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/128.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/128.dat \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/64.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/64.dat \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/README.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/README.txt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/antiCmds/Model1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/antiCmds/Model1.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/antiCmds/Model4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/antiCmds/Model4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/antiCmds/c_e_dic.bin.f:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/antiCmds/c_e_dic.bin.f \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/antiCmds/c_e_dic.bin.gen:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/antiCmds/c_e_dic.bin.gen \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/antiCmds/c_e_dic.bin.l:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/antiCmds/c_e_dic.bin.l \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/antiCmds/c_e_dic.bin.p:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/antiCmds/c_e_dic.bin.p \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/antiCmds/c_e_dic.bin.t:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/antiCmds/c_e_dic.bin.t \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/antiCmds/commandfilr3.dic:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/antiCmds/commandfilr3.dic \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/nl \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/p0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/ubmModel0.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/ubmModel0_BKD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/ubmModel0_BKD.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/ubmModel0_CMD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/ubmModel0_CMD.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/ubmModel1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/ubmModel1.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/ubmModel10.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/ubmModel2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/ubmModel2.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/ubmModel3.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/p2/ubmModel4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/10:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/10 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/11:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/11 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/12:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/12 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/13:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/13 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/2:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/2 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/3:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/3 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/4:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/4 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/5:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/5 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/6:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/6 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/7:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/7 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/8:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/8 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/9:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/9 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/b:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/hhhh/supplement/b \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/es-ES/keyphrase.xml:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/es-ES/keyphrase.xml \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/128.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/128.dat \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/64.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/64.dat \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/README.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/README.txt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/antiCmds/Model1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/antiCmds/Model1.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/antiCmds/Model4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/antiCmds/Model4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/antiCmds/c_e_dic.bin.f:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/antiCmds/c_e_dic.bin.f \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/antiCmds/c_e_dic.bin.gen:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/antiCmds/c_e_dic.bin.gen \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/antiCmds/c_e_dic.bin.l:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/antiCmds/c_e_dic.bin.l \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/antiCmds/c_e_dic.bin.p:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/antiCmds/c_e_dic.bin.p \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/antiCmds/c_e_dic.bin.t:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/antiCmds/c_e_dic.bin.t \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/antiCmds/commandfilr3.dic:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/antiCmds/commandfilr3.dic \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/nl \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/p0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/ubmModel0.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/ubmModel0_BKD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/ubmModel0_BKD.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/ubmModel0_CMD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/ubmModel0_CMD.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/ubmModel1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/ubmModel1.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/ubmModel10.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/ubmModel2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/ubmModel2.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/ubmModel3.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.3/ubmModel4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/n0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/n0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/n1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/n1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/n2:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/n2 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/nl \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/p0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/p1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/p1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/p1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/p1.txt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/pn1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/pn1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/ubmModel0.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/ubmModel10.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/ubmModel3.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2.5/ubmModel4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/128.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/128.dat \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/64.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/64.dat \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/README.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/README.txt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/antiCmds/Model1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/antiCmds/Model1.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/antiCmds/Model4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/antiCmds/Model4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/antiCmds/c_e_dic.bin.f:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/antiCmds/c_e_dic.bin.f \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/antiCmds/c_e_dic.bin.gen:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/antiCmds/c_e_dic.bin.gen \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/antiCmds/c_e_dic.bin.l:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/antiCmds/c_e_dic.bin.l \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/antiCmds/c_e_dic.bin.p:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/antiCmds/c_e_dic.bin.p \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/antiCmds/c_e_dic.bin.t:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/antiCmds/c_e_dic.bin.t \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/antiCmds/commandfilr3.dic:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/antiCmds/commandfilr3.dic \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/nl \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/p0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/ubmModel0.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/ubmModel0_BKD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/ubmModel0_BKD.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/ubmModel0_CMD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/ubmModel0_CMD.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/ubmModel1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/ubmModel1.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/ubmModel10.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/ubmModel2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/ubmModel2.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/ubmModel3.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/p2/ubmModel4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/10:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/10 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/11:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/11 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/12:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/12 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/13:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/13 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/2:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/2 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/3:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/3 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/4:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/4 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/5:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/5 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/6:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/6 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/7:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/7 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/8:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/8 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/9:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/9 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/b:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/hhhh/supplement/b \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/fr-FR/keyphrase.xml:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/fr-FR/keyphrase.xml \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/128.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/128.dat \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/64.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/64.dat \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/README.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/README.txt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/antiCmds/Model1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/antiCmds/Model1.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/antiCmds/Model4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/antiCmds/Model4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/antiCmds/c_e_dic.bin.f:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/antiCmds/c_e_dic.bin.f \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/antiCmds/c_e_dic.bin.gen:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/antiCmds/c_e_dic.bin.gen \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/antiCmds/c_e_dic.bin.l:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/antiCmds/c_e_dic.bin.l \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/antiCmds/c_e_dic.bin.p:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/antiCmds/c_e_dic.bin.p \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/antiCmds/c_e_dic.bin.t:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/antiCmds/c_e_dic.bin.t \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/antiCmds/commandfilr3.dic:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/antiCmds/commandfilr3.dic \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/nl \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/p0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/ubmModel0.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/ubmModel0_BKD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/ubmModel0_BKD.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/ubmModel0_CMD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/ubmModel0_CMD.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/ubmModel1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/ubmModel1.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/ubmModel10.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/ubmModel2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/ubmModel2.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/ubmModel3.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.3/ubmModel4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/n0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/n0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/n1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/n1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/n2:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/n2 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/nl \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/p0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/p1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/p1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/p1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/p1.txt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/pn1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/pn1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/ubmModel0.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/ubmModel10.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/ubmModel3.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2.5/ubmModel4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/128.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/128.dat \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/64.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/64.dat \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/README.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/README.txt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/antiCmds/Model1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/antiCmds/Model1.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/antiCmds/Model4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/antiCmds/Model4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/antiCmds/c_e_dic.bin.f:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/antiCmds/c_e_dic.bin.f \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/antiCmds/c_e_dic.bin.gen:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/antiCmds/c_e_dic.bin.gen \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/antiCmds/c_e_dic.bin.l:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/antiCmds/c_e_dic.bin.l \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/antiCmds/c_e_dic.bin.p:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/antiCmds/c_e_dic.bin.p \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/antiCmds/c_e_dic.bin.t:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/antiCmds/c_e_dic.bin.t \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/antiCmds/commandfilr3.dic:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/antiCmds/commandfilr3.dic \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/nl \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/p0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/ubmModel0.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/ubmModel0_BKD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/ubmModel0_BKD.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/ubmModel0_CMD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/ubmModel0_CMD.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/ubmModel1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/ubmModel1.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/ubmModel10.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/ubmModel2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/ubmModel2.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/ubmModel3.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/p2/ubmModel4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/10:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/10 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/11:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/11 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/12:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/12 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/13:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/13 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/2:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/2 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/3:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/3 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/4:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/4 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/5:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/5 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/6:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/6 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/7:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/7 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/8:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/8 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/9:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/9 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/b:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/hhhh/supplement/b \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/hi-IN/keyphrase.xml:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/hi-IN/keyphrase.xml \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/128.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/128.dat \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/64.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/64.dat \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/README.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/README.txt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/antiCmds/Model1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/antiCmds/Model1.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/antiCmds/Model4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/antiCmds/Model4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/antiCmds/c_e_dic.bin.f:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/antiCmds/c_e_dic.bin.f \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/antiCmds/c_e_dic.bin.gen:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/antiCmds/c_e_dic.bin.gen \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/antiCmds/c_e_dic.bin.l:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/antiCmds/c_e_dic.bin.l \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/antiCmds/c_e_dic.bin.p:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/antiCmds/c_e_dic.bin.p \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/antiCmds/c_e_dic.bin.t:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/antiCmds/c_e_dic.bin.t \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/antiCmds/commandfilr3.dic:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/antiCmds/commandfilr3.dic \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/nl \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/p0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/ubmModel0.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/ubmModel0_BKD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/ubmModel0_BKD.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/ubmModel0_CMD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/ubmModel0_CMD.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/ubmModel1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/ubmModel1.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/ubmModel10.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/ubmModel2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/ubmModel2.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/ubmModel3.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.3/ubmModel4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/n0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/n0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/n1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/n1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/n2:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/n2 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/nl \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/p0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/p1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/p1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/p1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/p1.txt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/pn1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/pn1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/ubmModel0.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/ubmModel10.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/ubmModel3.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2.5/ubmModel4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/128.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/128.dat \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/64.dat:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/64.dat \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/README.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/README.txt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/antiCmds/Model1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/antiCmds/Model1.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/antiCmds/Model4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/antiCmds/Model4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/antiCmds/c_e_dic.bin.f:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/antiCmds/c_e_dic.bin.f \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/antiCmds/c_e_dic.bin.gen:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/antiCmds/c_e_dic.bin.gen \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/antiCmds/c_e_dic.bin.l:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/antiCmds/c_e_dic.bin.l \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/antiCmds/c_e_dic.bin.p:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/antiCmds/c_e_dic.bin.p \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/antiCmds/c_e_dic.bin.t:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/antiCmds/c_e_dic.bin.t \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/antiCmds/commandfilr3.dic:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/antiCmds/commandfilr3.dic \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/nl \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/p0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/ubmModel0.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/ubmModel0_BKD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/ubmModel0_BKD.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/ubmModel0_CMD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/ubmModel0_CMD.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/ubmModel1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/ubmModel1.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/ubmModel10.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/ubmModel2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/ubmModel2.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/ubmModel3.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/p2/ubmModel4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/10:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/10 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/11:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/11 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/12:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/12 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/13:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/13 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/2:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/2 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/3:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/3 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/4:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/4 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/5:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/5 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/6:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/6 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/7:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/7 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/8:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/8 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/9:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/9 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/b:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/hhhh/supplement/b \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/it-IT/keyphrase.xml:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/it-IT/keyphrase.xml \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword03/keyphrase.xml:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword03/keyphrase.xml \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/p2.3/bkd:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/p2.3/bkd \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/p2.3/model.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/p2.3/model.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/p2.3/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/p2.3/nl \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/p2.3/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/p2.3/p0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/p2.3/p1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/p2.3/p1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/p2.5/KerasModel:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/p2.5/KerasModel \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/p2.5/format.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/p2.5/format.txt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/p2.5/n0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/p2.5/n0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/p2.5/n1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/p2.5/n1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/p2.5/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/p2.5/nl \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/p2.5/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/p2.5/p0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/p2.5/p1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/p2.5/p1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/p2.5/pn1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/p2.5/pn1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/p2.5/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/p2.5/ubmModel0.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/p2.5/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/p2.5/ubmModel10.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/p2.5/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/p2.5/ubmModel3.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/p2.5/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/p2.5/ubmModel4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/p2/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/p2/nl \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/p2/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/p2/p0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/p2/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/p2/ubmModel0.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/p2/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/p2/ubmModel10.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/p2/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/p2/ubmModel3.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/p2/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/p2/ubmModel4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/10:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/10 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/11:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/11 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/12:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/12 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/13:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/13 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/2:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/2 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/21:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/21 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/22:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/22 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/23:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/23 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/24:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/24 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/25:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/25 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/26:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/26 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/27:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/27 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/28:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/28 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/29:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/29 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/3:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/3 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/4:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/4 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/5:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/5 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/6:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/6 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/7:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/7 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/8:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/8 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/9:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/9 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/b:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/b \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/bkd:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/bkd \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/nl \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/nl.use_pcm:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/nl.use_pcm \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/nl.use_xor:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/dddd/supplement/nl.use_xor \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2.3/bkd:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2.3/bkd \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2.3/model.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2.3/model.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2.3/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2.3/nl \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2.3/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2.3/p0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2.3/p1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2.3/p1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2.5/KerasModel:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2.5/KerasModel \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2.5/format.txt:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2.5/format.txt \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2.5/n0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2.5/n0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2.5/n1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2.5/n1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2.5/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2.5/nl \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2.5/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2.5/p0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2.5/p1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2.5/p1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2.5/pn1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2.5/pn1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2.5/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2.5/ubmModel0.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2.5/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2.5/ubmModel10.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2.5/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2.5/ubmModel3.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2.5/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2.5/ubmModel4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2/nl \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2/p0:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2/p0 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2/ubmModel0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2/ubmModel0.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2/ubmModel10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2/ubmModel10.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2/ubmModel3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2/ubmModel3.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2/ubmModel4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/p2/ubmModel4.bin \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/1:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/1 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/10:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/10 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/11:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/11 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/12:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/12 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/13:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/13 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/2:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/2 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/21:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/21 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/22:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/22 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/23:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/23 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/24:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/24 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/25:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/25 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/26:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/26 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/27:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/27 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/28:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/28 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/29:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/29 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/3:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/3 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/4:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/4 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/5:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/5 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/6:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/6 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/7:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/7 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/8:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/8 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/9:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/9 \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/b:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/b \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/bkd:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/bkd \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/nl:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/nl \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/nl.use_pcm:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/nl.use_pcm \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/nl.use_xor:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/hhaa/supplement/nl.use_xor \
-    vendor/xiaomi/chopin/proprietary/vendor/etc/voicecommand/training/ubmfile/keyword08/keyphrase.xml:$(TARGET_COPY_OUT_VENDOR)/etc/voicecommand/training/ubmfile/keyword08/keyphrase.xml \
     vendor/xiaomi/chopin/proprietary/vendor/etc/wfd_source_capability.csv:$(TARGET_COPY_OUT_VENDOR)/etc/wfd_source_capability.csv \
     vendor/xiaomi/chopin/proprietary/vendor/etc/xgf.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/xgf.cfg \
     vendor/xiaomi/chopin/proprietary/vendor/firmware/0_click_P_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/0_click_P_RTP.bin \
@@ -4881,8 +3639,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chopin/proprietary/vendor/mitee/ta/dba51a17-0563-11e7-93b16fa7b0071a51.ta:$(TARGET_COPY_OUT_VENDOR)/mitee/ta/dba51a17-0563-11e7-93b16fa7b0071a51.ta \
     vendor/xiaomi/chopin/proprietary/vendor/mitee/ta/e5140b33-76fa-4c63-ab18062caab2fb5c.ta:$(TARGET_COPY_OUT_VENDOR)/mitee/ta/e5140b33-76fa-4c63-ab18062caab2fb5c.ta \
     vendor/xiaomi/chopin/proprietary/vendor/mitee/ta/f13010e0-2ae1-11e5-896a0002a5d5c51d.ta:$(TARGET_COPY_OUT_VENDOR)/mitee/ta/f13010e0-2ae1-11e5-896a0002a5d5c51d.ta \
-    vendor/xiaomi/chopin/proprietary/vendor/odm_dlkm/etc/NOTICE.xml.gz:$(TARGET_COPY_OUT_VENDOR)/odm_dlkm/etc/NOTICE.xml.gz \
-    vendor/xiaomi/chopin/proprietary/vendor/odm_dlkm/etc/build.prop:$(TARGET_COPY_OUT_VENDOR)/odm_dlkm/etc/build.prop \
     vendor/xiaomi/chopin/proprietary/vendor/res/images/lcd_test_00.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_00.png \
     vendor/xiaomi/chopin/proprietary/vendor/res/images/lcd_test_01.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_01.png \
     vendor/xiaomi/chopin/proprietary/vendor/res/images/lcd_test_02.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_02.png \
