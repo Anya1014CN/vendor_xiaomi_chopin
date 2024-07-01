@@ -3720,51 +3720,21 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chopin/proprietary/vendor/thh/ta/e5140b3376fa4c63ab18062caab2fb5c.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/e5140b3376fa4c63ab18062caab2fb5c.ta \
     vendor/xiaomi/chopin/proprietary/vendor/thh/ta/e97c270ea5c44c58bcd3384a2fa2539e.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/e97c270ea5c44c58bcd3384a2fa2539e.ta \
     vendor/xiaomi/chopin/proprietary/vendor/thh/ta/isee_model.json:$(TARGET_COPY_OUT_VENDOR)/thh/ta/isee_model.json \
-    vendor/xiaomi/chopin/proprietary/vendor/vendor_dlkm/etc/NOTICE.xml.gz:$(TARGET_COPY_OUT_VENDOR)/vendor_dlkm/etc/NOTICE.xml.gz \
-    vendor/xiaomi/chopin/proprietary/vendor/vendor_dlkm/etc/build.prop:$(TARGET_COPY_OUT_VENDOR)/vendor_dlkm/etc/build.prop
-    vendor/xiaomi/chopin/proprietary/vendor/vendor_dlkm/etc/build.prop:$(TARGET_COPY_OUT_VENDOR)/vendor_dlkm/etc/build.prop
     vendor/xiaomi/chopin/proprietary/product/device_features/chopin.xml:$(TARGET_COPY_OUT_PRODUCT)/device_features/chopin.xml
 
 PRODUCT_PACKAGES += \
-    com.android.vndk.v30 \
-    EidService \
-    GFTest \
-    GoogleNetworkStackResOverlay \
-    GoogleTetheringResOverlay \
-    IFAAService \
-    InProcessTetheringResOverlay \
-    MipayService \
-    NetworkStackInProcessResOverlay \
-    NetworkStackResOverlay \
-    SensorTestTool \
-    SoterService \
-    TetheringResOverlay \
-    com.xiaomi.ugd \
-    MtkCalendar \
-    Nfc_st \
-    SecurityOnetrackService \
-    TeeService \
     DuraSpeed \
-    EmergencyInfo \
-    GoogleServicesFramework \
-    MiuiSystemUI \
     MtkCarrierConfig \
-    MtkWallpaperPicker \
     Omacp \
     Settings \
-    StorageManager \
-    WallpaperCropper \
     com.fingerprints.extension \
     com.st.android.nfc_extensions \
     com.xiaomi.nfc \
     android.hardware.dumpstate@1.1-service.xiaomi \
-    android.hardware.health@2.1 \
     android.hardware.neuralnetworks@1.3-service-mtk-mdla-dsp-gpu \
     android.hardware.usb@1.2-service-mediatekv2 \
     android.hardware.wifi.hostapd \
     android.hardware.wifi.supplicant \
-    android.hardware.wifi@1.0-service \
-    lights-mtk-default \
     manifest_android.hardware.drm@1.4-service.clearkey \
     manifest_android.hardware.drm@1.4-service.widevine \
     manifest_vendor.dolby.hardware.dms \
