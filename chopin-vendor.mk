@@ -1620,64 +1620,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chopin/proprietary/vendor/lib/AVCSecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/AVCSecureVdecCA.so \
     vendor/xiaomi/chopin/proprietary/vendor/lib/HEVCSecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/HEVCSecureVdecCA.so \
     vendor/xiaomi/chopin/proprietary/vendor/lib/VP9SecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib/VP9SecureVdecCA.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.frameworks.sensorservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.frameworks.sensorservice@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.audio.common-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common-util.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.audio.common@5.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@5.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.audio.common@6.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@6.0-util.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.audio.common@6.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@6.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.audio.common@7.0-enums.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@7.0-enums.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.audio.common@7.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@7.0-util.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.audio.common@7.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@7.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.audio.effect@6.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.effect@6.0-util.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.audio.effect@6.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.effect@6.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.audio.effect@7.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.effect@7.0-util.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.audio.effect@7.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.effect@7.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.audio@6.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio@6.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.audio@7.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio@7.0-util.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.audio@7.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio@7.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.bluetooth.audio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.bluetooth.audio@2.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.bluetooth.audio@2.1.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.bluetooth@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.bluetooth@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.bluetooth@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.bluetooth@1.1.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.boot@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.boot@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.boot@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.boot@1.1.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.boot@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.boot@1.2.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.cas.native@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.cas.native@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.cas@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.cas@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.cas@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.cas@1.1.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.cas@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.cas@1.2.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.drm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.drm@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.drm@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.drm@1.1.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.drm@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.drm@1.2.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.drm@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.drm@1.3.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.drm@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.drm@1.4.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.gatekeeper@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.gatekeeper@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.health@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.health@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.health@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.health@2.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.health@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.health@2.1.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.ir@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.ir@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.media.c2@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.media.c2@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.media.c2@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.media.c2@1.1.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.media.c2@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.media.c2@1.2.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.radio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.radio@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.radio@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.radio@1.1.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.secure_element@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.secure_element@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.secure_element@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.secure_element@1.1.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.secure_element@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.secure_element@1.2.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.sensors@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.sensors@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.sensors@2.0-ScopedWakelock.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.sensors@2.0-ScopedWakelock.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.sensors@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.sensors@2.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.sensors@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.sensors@2.1.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.soundtrigger@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.soundtrigger@2.1.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.soundtrigger@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.soundtrigger@2.2.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.soundtrigger@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.soundtrigger@2.3.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.thermal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.thermal@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hardware.thermal@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.thermal@2.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hidl.allocator@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hidl.allocator@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.hidl.memory.block@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hidl.memory.block@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/android.system.wifi.keystore@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.system.wifi.keystore@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/audio_common-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/audio_common-aidl-cpp.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/audioclient-types-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/audioclient-types-aidl-cpp.so \
     vendor/xiaomi/chopin/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
     vendor/xiaomi/chopin/proprietary/vendor/lib/egl/libGLES_meow.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_meow.so \
     vendor/xiaomi/chopin/proprietary/vendor/lib/egl/libMEOW_data.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_data.so \
@@ -1685,7 +1627,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chopin/proprietary/vendor/lib/egl/libMEOW_qt.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_qt.so \
     vendor/xiaomi/chopin/proprietary/vendor/lib/egl/libMEOW_trace.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_trace.so \
     vendor/xiaomi/chopin/proprietary/vendor/lib/egl/mt6893/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/mt6893/libGLES_mali.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib/framework-permission-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/framework-permission-aidl-cpp.so \
     vendor/xiaomi/chopin/proprietary/vendor/lib/gc02m1sunny_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc02m1sunny_mipi_raw_tuning.so \
     vendor/xiaomi/chopin/proprietary/vendor/lib/hw/android.hardware.audio.effect@6.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio.effect@6.0-impl.so \
     vendor/xiaomi/chopin/proprietary/vendor/lib/hw/android.hardware.audio.effect@7.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio.effect@7.0-impl.so \
@@ -2464,131 +2405,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chopin/proprietary/vendor/lib64/AVCSecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/AVCSecureVdecCA.so \
     vendor/xiaomi/chopin/proprietary/vendor/lib64/HEVCSecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/HEVCSecureVdecCA.so \
     vendor/xiaomi/chopin/proprietary/vendor/lib64/VP9SecureVdecCA.so:$(TARGET_COPY_OUT_VENDOR)/lib64/VP9SecureVdecCA.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.frameworks.sensorservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.frameworks.sensorservice@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.audio.common-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common-util.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.audio.common@5.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common@5.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.audio.common@6.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common@6.0-util.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.audio.common@6.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common@6.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.audio.common@7.0-enums.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common@7.0-enums.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.audio.common@7.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common@7.0-util.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.audio.common@7.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common@7.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.audio.effect@6.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.effect@6.0-util.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.audio.effect@6.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.effect@6.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.audio.effect@7.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.effect@7.0-util.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.audio.effect@7.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.effect@7.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.audio@6.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio@6.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.audio@7.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio@7.0-util.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.audio@7.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio@7.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.biometrics.fingerprint@2.1.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.bluetooth.audio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.bluetooth.audio@2.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.bluetooth.audio@2.1.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.bluetooth@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.bluetooth@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.bluetooth@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.bluetooth@1.1.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.boot@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.boot@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.boot@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.boot@1.1.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.boot@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.boot@1.2.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.camera.common@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.common@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.device@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.camera.device@3.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.device@3.2.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.camera.device@3.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.device@3.3.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.camera.device@3.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.device@3.4.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.camera.device@3.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.device@3.5.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.camera.device@3.6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.device@3.6.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.camera.provider@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.4.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.camera.provider@2.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.5.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.camera.provider@2.6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.6.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.drm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.drm@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.drm@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.drm@1.1.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.drm@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.drm@1.2.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.drm@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.drm@1.3.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.drm@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.drm@1.4.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.dumpstate@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.dumpstate@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.dumpstate@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.dumpstate@1.1.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.gatekeeper@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gatekeeper@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.gnss.measurement_corrections@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gnss.measurement_corrections@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.gnss.measurement_corrections@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gnss.measurement_corrections@1.1.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.gnss.visibility_control@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gnss.visibility_control@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gnss@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.gnss@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gnss@1.1.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.gnss@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gnss@2.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.gnss@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gnss@2.1.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.graphics.composer@2.1-resources.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.composer@2.1-resources.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.graphics.composer@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.composer@2.1.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.graphics.composer@2.2-resources.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.composer@2.2-resources.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.graphics.composer@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.composer@2.2.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.graphics.composer@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.composer@2.3.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.health@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.health@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.health@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.health@2.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.health@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.health@2.1.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.ir@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.ir@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.keymaster@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.keymaster@3.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.keymaster@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.keymaster@4.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.light@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.light@2.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.media.c2@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.media.c2@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.media.c2@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.media.c2@1.1.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.media.c2@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.media.c2@1.2.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.neuralnetworks@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.neuralnetworks@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.neuralnetworks@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.neuralnetworks@1.1.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.neuralnetworks@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.neuralnetworks@1.2.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.neuralnetworks@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.neuralnetworks@1.3.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.nfc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.nfc@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.nfc@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.nfc@1.1.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.nfc@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.nfc@1.2.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.power-service-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.power-service-mediatek.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.power@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.power@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.power@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.power@1.1.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.power@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.power@1.2.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.radio.config@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.radio.config@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.radio.config@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.radio.config@1.1.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.radio.config@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.radio.config@1.2.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.radio.config@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.radio.config@1.3.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.radio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.radio@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.radio@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.radio@1.1.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.radio@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.radio@1.2.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.radio@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.radio@1.3.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.radio@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.radio@1.4.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.radio@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.radio@1.5.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.radio@1.6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.radio@1.6.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.secure_element@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.secure_element@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.secure_element@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.secure_element@1.1.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.secure_element@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.secure_element@1.2.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.sensors@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.sensors@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.sensors@2.0-ScopedWakelock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.sensors@2.0-ScopedWakelock.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.sensors@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.sensors@2.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.sensors@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.sensors@2.1.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.soundtrigger@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.soundtrigger@2.1.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.soundtrigger@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.soundtrigger@2.2.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.soundtrigger@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.soundtrigger@2.3.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.tetheroffload.config@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.tetheroffload.config@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.tetheroffload.control@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.tetheroffload.control@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.tetheroffload.control@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.tetheroffload.control@1.1.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.thermal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.thermal@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.thermal@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.thermal@2.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.usb.gadget@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.usb.gadget@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.usb.gadget@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.usb.gadget@1.1.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.usb@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.usb@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.usb@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.usb@1.1.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.usb@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.usb@1.2.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.usb@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.usb@1.3.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.vibrator-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.vibrator-V1-ndk_platform.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.wifi.hostapd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.wifi.hostapd@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.wifi.hostapd@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.wifi.hostapd@1.1.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.wifi.hostapd@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.wifi.hostapd@1.2.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.wifi.hostapd@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.wifi.hostapd@1.3.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.wifi.supplicant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.wifi.supplicant@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.wifi.supplicant@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.wifi.supplicant@1.1.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.wifi.supplicant@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.wifi.supplicant@1.2.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.wifi.supplicant@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.wifi.supplicant@1.3.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.wifi.supplicant@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.wifi.supplicant@1.4.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.wifi@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.wifi@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.wifi@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.wifi@1.1.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.wifi@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.wifi@1.2.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.wifi@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.wifi@1.3.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.wifi@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.wifi@1.4.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hardware.wifi@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.wifi@1.5.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hidl.allocator@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hidl.allocator@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.hidl.memory.block@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hidl.memory.block@1.0.so \
-    vendor/xiaomi/chopin/proprietary/vendor/lib64/android.system.wifi.keystore@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.system.wifi.keystore@1.0.so \
     vendor/xiaomi/chopin/proprietary/vendor/lib64/audio_common-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/audio_common-aidl-cpp.so \
     vendor/xiaomi/chopin/proprietary/vendor/lib64/audioclient-types-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/audioclient-types-aidl-cpp.so \
     vendor/xiaomi/chopin/proprietary/vendor/lib64/com.fingerprints.extension@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.fingerprints.extension@3.0.so \
