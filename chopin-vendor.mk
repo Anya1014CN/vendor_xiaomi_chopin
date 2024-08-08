@@ -3080,3 +3080,30 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chopin/proprietary/vendor/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta \
     vendor/xiaomi/chopin/proprietary/vendor/thh/ta/e5140b3376fa4c63ab18062caab2fb5c.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/e5140b3376fa4c63ab18062caab2fb5c.ta \
     vendor/xiaomi/chopin/proprietary/vendor/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/ueventd.rc
+
+PRODUCT_PACKAGES += \
+    IFAAService \
+    SoterService \
+    EidService \
+    EmCamera \
+    SensorTestTool \
+    com.xiaomi.ugd \
+    AHBF@2.1-service \
+    android.hardware.dumpstate@1.1-service.xiaomi \
+    android.hardware.gpu@1.0-service \
+    android.hardware.neuralnetworks@1.3-service-mtk-mdla-dsp-gpu \
+    android.hardware.wifi.hostapd \
+    android.hardware.wifi@1.0-service \
+    fod \
+    manifest_android.hardware.drm@1.3-service.clearkey \
+    manifest_android.hardware.drm@1.3-service.widevine \
+    manifest_vendor.dolby.hardware.dms \
+    power-default \
+    vendor.mediatek.hardware.dplanner@2.0-service \
+    vendor.xiaomi.hardware.micharge@1.0 \
+    vendor.xiaomi.hardware.misys@1.0 \
+    vendor.xiaomi.hardware.misys@2.0 \
+    vendor.xiaomi.hardware.misys@3.0 \
+    vendor.xiaomi.hardware.vibratorfeature@1.0-service \
+    vendor.xiaomi.hw.touchfeature@1.0-service \
+    vibrator-mtk-default
